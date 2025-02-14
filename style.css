@@ -1,5 +1,5 @@
 main {
   display:grid; 
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: epeat(auto-fit, minmax(240px, 1fr));;
   Gap: 20px;
 }
