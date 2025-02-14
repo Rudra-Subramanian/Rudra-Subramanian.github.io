@@ -1,0 +1,38 @@
+html,
+body {
+	height: 100%;
+  width: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap; 
+  min-height: 100%;
+}
+
+.CultPanel {
+    flex: 1;
+    background-color: #837af7;
+  }
+  
+.MapIdeasPanel {
+    flex: 1;
+    background-color: #95092e;
+  
+  }
+  
+  
+.RandomStratsPanel {
+    flex: 1;
+    min-height: 225px;
+    background-color: #f26429;
+  }
+  
+  
