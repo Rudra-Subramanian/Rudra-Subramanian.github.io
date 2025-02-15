@@ -9,45 +9,20 @@
         "dimension": 82.01754385964912,
         "children": [
           {
-            "id": "2b4f55071698c4fc",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Lineups/cypher A1.png"
-              },
-              "icon": "lucide-image",
-              "title": "cypher A1"
-            }
-          },
-          {
-            "id": "e0097b34e5064d4e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Lineups/cypher A2.png"
-              },
-              "icon": "lucide-image",
-              "title": "cypher A2"
-            }
-          },
-          {
             "id": "62f095350d1feff2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defence/Low Pressure Defaults.md",
+                "file": "Defence/Cypher A.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Low Pressure Defaults"
+              "title": "Cypher A"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "00a885de10c4a14c",
@@ -215,17 +190,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9ffbb150413bef9b",
+  "active": "62f095350d1feff2",
   "lastOpenFiles": [
+    "Contents.md",
+    "Defence/Low Pressure Defaults.md",
+    "Lineups/cypher A2.png",
     "Defence/Defence.md",
     "Defence/Cypher A.md",
     "Defence/Cypher B.md",
     "Lineups/cypher A1.png",
-    "Lineups/cypher A2.png",
     "image1 1.png",
-    "Defence/Low Pressure Defaults.md",
     "Lineups/slow_def_all.png",
-    "Contents.md",
     "Lineups/cypher A.png",
     "Lineups/all_def.png",
     "image4.png",
