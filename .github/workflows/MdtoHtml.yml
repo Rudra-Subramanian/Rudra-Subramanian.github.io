@@ -46,7 +46,7 @@ jobs:
             sudo mkdir -p obsidian_htmls/$OTHERDIR
             echo "created new directoryobsidian_htmls/$OTHERDIR"
             cd "$DIR_NAME/$OTHERDIR"
-            sudo python3 exportMdFileToHtml.py Index.md y y ../../obsidian_htmls/$OTHERDIR
+            sudo python3 exportMdFileToHtml.py Contents.md y y ../../obsidian_htmls/$OTHERDIR
             rm -r exportMdFileToHtml.py
             cd ../../obsidian_htmls/$OTHERDIR
             rm -f *.md
