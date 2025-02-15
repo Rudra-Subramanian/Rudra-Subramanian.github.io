@@ -12,7 +12,7 @@ Connor: [[Cypher]]
 	[[Pistol Defense]]		
 	[[High Pressure Defaults]]
 		[[cypher A]]
-		[[cypher B]]	
+		[[Cypher B]]	
 	[[Low Pressure Defaults]]	- when they expect pressure at start of round		
 	[[OP Setups]]		
 		[[Mid]]	

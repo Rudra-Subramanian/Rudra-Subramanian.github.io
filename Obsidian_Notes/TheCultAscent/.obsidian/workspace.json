@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Contents.md",
-                "mode": "source",
+                "file": "Defence/Cypher B.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Contents"
+              "title": "Cypher B"
             }
           }
         ]
@@ -170,21 +170,23 @@
   },
   "active": "62f095350d1feff2",
   "lastOpenFiles": [
+    "Defence/Defence.md",
+    "Defence/High Pressure Defaults.md",
+    "Defence/Cypher B.md",
+    "Templates/Valoplant Strat.md",
+    "Contents.md",
     "Agents/Cypher.md",
     "Attack/Attack.md",
-    "Contents.md",
-    "Defense/Defence.md",
     "Agents/Sova.md",
     "Agents/Jett.md",
     "Agents/Omen.md",
     "Agents/Tejo.md",
-    "Templates/Valoplant Strat.md",
     "Templates/Lineup.md",
     "Templates/Agent_template.md",
     "Templates",
     "Defaults",
     "Hits",
-    "Defense",
+    "Defence",
     "Attack",
     "Lineups",
     "Agents",
