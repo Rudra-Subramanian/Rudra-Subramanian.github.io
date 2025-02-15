@@ -1,6 +1,6 @@
 # Cypher B
 
-
+[[High Pressure Defaults]]
 ### Side : [[Defence]]
 
 ![[all_def.png]]
