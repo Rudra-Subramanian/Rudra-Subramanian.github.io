@@ -11,14 +11,12 @@
             "id": "62f095350d1feff2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Defence/Cypher B.md",
-                "mode": "preview",
-                "source": false
+                "file": "Lineups/cypher B.png"
               },
-              "icon": "lucide-file",
-              "title": "Cypher B"
+              "icon": "lucide-image",
+              "title": "cypher B"
             }
           }
         ]
@@ -168,11 +166,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "62f095350d1feff2",
+  "active": "9ffbb150413bef9b",
   "lastOpenFiles": [
-    "Defence/Defence.md",
-    "Defence/High Pressure Defaults.md",
+    "downloaded_images",
+    "downloaded",
+    "Lineups/all_def.png",
+    "Lineups/cypher B2.png",
+    "Lineups/cypher B.png",
     "Defence/Cypher B.md",
+    "images",
+    "Defence/High Pressure Defaults.md",
+    "Defence/Defence.md",
     "Templates/Valoplant Strat.md",
     "Contents.md",
     "Agents/Cypher.md",
