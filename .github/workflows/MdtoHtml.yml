@@ -1,7 +1,7 @@
 # This workflow will install Python dependencies, run tests and lint with a single version of Python
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
 
-name: Converting Changed Obisidan Files to HTML files
+name: Python application
 
 on:
   push:
@@ -41,20 +41,19 @@ jobs:
           echo "processing file: $file"
           DIR_NAME=$(echo "$file" | cut -d'/' -f1)
           OTHERDIR=$(echo "$file" | cut -d'/' -f2)
-          <!-- checking if pushed changes are in Obsidian_Notes folder -->
           if [[ "$DIR_NAME" == *Obsidian_Notes* ]]; then
             cp "exportMdFileToHtml.py" "$DIR_NAME/$OTHERDIR/exportMdFileToHtml.py"
-            <!-- creating export directory if doesnt exist -->
             sudo mkdir -p obsidian_htmls/$OTHERDIR
-            echo "created new directory obsidian_htmls/$OTHERDIR/export_Index"
+            echo "created new directoryobsidian_htmls/$OTHERDIR"
             cd "$DIR_NAME/$OTHERDIR"
-            <!-- Running python file from within -->
             sudo python3 exportMdFileToHtml.py Index.md y y ../../obsidian_htmls/$OTHERDIR
             rm -r exportMdFileToHtml.py
+            cd ../../obsidian_htmls/$OTHERDIR
+            rm -f *.md
+            rm -f *.html.md
             cd ../..
           fi
         done
-        <!-- pushing changes --> 
         git config user.name github-actions
         git config user.email github-actions@github.com
         git add *
