@@ -1,4 +1,4 @@
-# cypher A
+# Cypher A
 
 [[High Pressure Defaults]]
 
