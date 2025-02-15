@@ -40,7 +40,7 @@ if(mainFileToExport == ""):
 
 if sys.argv[4] == None:
     exportDir = os.path.expanduser('~/export_' + fileToFind.split('/')[-1].replace(".md",""))
-exportDir = str(sys.argv[4]) +'/export_'+  fileToFind.split('/')[-1].replace(".md","")
+exportDir = str(sys.argv[4])
 
 print("Path to export vault: " + str(exportDir) + "\n")
 
