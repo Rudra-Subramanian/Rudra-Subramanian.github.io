@@ -1,6 +1,6 @@
 
 
-COMP:
+COMP
 
 Justin : [[Omen]]
 HK : [[Tejo]]
