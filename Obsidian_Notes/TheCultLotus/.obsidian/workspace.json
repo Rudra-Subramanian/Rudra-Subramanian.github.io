@@ -1,25 +1,54 @@
 {
   "main": {
-    "id": "40dc0dbcab8f87f2",
+    "id": "8a1ef8d43dbb4d32",
     "type": "split",
     "children": [
       {
-        "id": "ec6687341540772d",
+        "id": "8e2a19ab280653dc",
         "type": "tabs",
+        "dimension": 72.42424242424242,
         "children": [
           {
-            "id": "62f095350d1feff2",
+            "id": "a37bb341a3fc86f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Contents.md",
+                "file": "Attack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Contents"
-            }
+              "title": "Attack"
+            },
+            "group": "1feffb47bc07e12c"
+          }
+        ]
+      },
+      {
+        "id": "8af2d96588a35e3d",
+        "type": "tabs",
+        "dimension": 27.575757575757574,
+        "children": [
+          {
+            "id": "3af355dcab4f55b9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Attack.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Attack"
+            },
+            "group": "1feffb47bc07e12c"
           }
         ]
       }
@@ -27,15 +56,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "79f65a262a6c64cd",
+    "id": "37658f8c201cbb80",
     "type": "split",
     "children": [
       {
-        "id": "2b07baa0884d2e8d",
+        "id": "2c1241d64bfa5bd0",
         "type": "tabs",
         "children": [
           {
-            "id": "9ffbb150413bef9b",
+            "id": "46507c9a48545ca0",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +77,7 @@
             }
           },
           {
-            "id": "0b65063d33fb25bf",
+            "id": "fbe000aaef582deb",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +94,7 @@
             }
           },
           {
-            "id": "d1f9ea0556e411c0",
+            "id": "f770ff5c49c43f1b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +110,20 @@
     "width": 300
   },
   "right": {
-    "id": "c49b6bcbc44a1a42",
+    "id": "8e9a431f80691259",
     "type": "split",
     "children": [
       {
-        "id": "d87082c5f3f1381b",
+        "id": "9bef35245023d1c0",
         "type": "tabs",
         "children": [
           {
-            "id": "64c0b3f6720a999c",
+            "id": "c05ab8cd43af376c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attack/Attack.md",
+                "file": "Fade.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +133,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Attack"
+              "title": "Backlinks for Fade"
             }
           },
           {
-            "id": "8fa4941c2766a91a",
+            "id": "80d3f8557befe377",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attack/Attack.md",
+                "file": "Fade.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Attack"
+              "title": "Outgoing links from Fade"
             }
           },
           {
-            "id": "2637c002e764a79f",
+            "id": "da15b5e3f27c4e7d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,18 +166,18 @@
             }
           },
           {
-            "id": "d5f20636873444a8",
+            "id": "561c7f3d6fda006a",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attack/Attack.md",
+                "file": "Fade.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Attack"
+              "title": "Outline of Fade"
             }
           }
         ]
@@ -168,42 +197,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "62f095350d1feff2",
+  "active": "a37bb341a3fc86f7",
   "lastOpenFiles": [
-    "Defence/Cypher A.md",
+    "Attack/C default.md",
+    "Lineups/C_pause_smoke.png",
+    "Lineups/c_default_attack.png",
+    "Attack.md",
+    "Attack/A defualt.md",
+    "Lineups/cypher_attack_a_default.png",
     "Contents.md",
-    "Defence/Low Pressure Defaults.md",
-    "Lineups/cypher A2.png",
-    "Defence/Defence.md",
-    "Defence/Cypher B.md",
-    "Lineups/cypher A1.png",
-    "image1 1.png",
-    "Lineups/slow_def_all.png",
-    "Lineups/cypher A.png",
-    "Lineups/all_def.png",
-    "image4.png",
-    "Lineups/cypher B.png",
-    "Defence/High Pressure Defaults.md",
-    "downloaded_images",
-    "downloaded",
-    "Lineups/cypher B2.png",
-    "images",
-    "Templates/Valoplant Strat.md",
+    "Lineups/a_default_attack.png",
+    "Lineups/a_default_attack_fade_haunt.png",
+    "Attack/Retake mound.md",
+    "Lineups/retake_mound.png",
+    "Attack/Retake rubble.md",
+    "Lineups/retake_rubble.png",
+    "Defence.md",
+    "Lineups/defence_pistol2.png",
+    "Defence/Defence Pistol.md",
+    "Lineups/defence_pistol1.png",
+    "Defence/Light A.md",
+    "Lineups/Pasted image 20250216161531.png",
+    "Defence/Heavy C.md",
+    "Agents/Breach.md",
+    "Defence/Heavy A.md",
+    "Agents/Fade.md",
+    "Lineups",
     "Agents/Cypher.md",
-    "Attack/Attack.md",
-    "Agents/Sova.md",
-    "Agents/Jett.md",
+    "Agents/Raze.md",
     "Agents/Omen.md",
-    "Agents/Tejo.md",
+    "Agents",
+    "Templates/Valoplant Strat.md",
     "Templates/Lineup.md",
     "Templates/Agent_template.md",
     "Templates",
-    "Defaults",
-    "Hits",
     "Defence",
     "Attack",
     "Lineups",
-    "Agents",
     "Welcome.md"
   ]
 }
