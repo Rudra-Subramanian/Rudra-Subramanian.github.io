@@ -1,0 +1,65 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
+
+name: Python application
+
+on:
+  push:
+    branches: [ "main" ]
+    paths: 
+      - 'Obsidian_Notes/**'
+
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.10"
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        sudo pip install flake8 pytest
+        if [ -f requirements.txt ]; then sudo pip install -r requirements.txt; fi
+    - name: Run python on file looking for file name
+      run: |
+        ls -ltr
+        
+    - name: Get changed files and export to html if in Obsidian_Notes
+      run: |
+        echo "Fetching changed directories..."
+        git fetch --depth=2 # Ensure we have the previous commit
+        CHANGED_FOLDERS=$(git diff --name-only HEAD^ HEAD | awk -F'/' '{print $0}' | sort -u)
+        echo "Changed folders:"
+        for file in $CHANGED_FOLDERS; do
+          echo "processing file: $file"
+          DIR_NAME=$(echo "$file" | cut -d'/' -f1)
+          OTHERDIR=$(echo "$file" | cut -d'/' -f2)
+          if [[ "$DIR_NAME" == *Obsidian_Notes* ]]; then
+            cp "exportMdFileToHtml.py" "$DIR_NAME/$OTHERDIR/exportMdFileToHtml.py"
+            sudo mkdir -p obsidian_htmls/$OTHERDIR
+            echo "created new directoryobsidian_htmls/$OTHERDIR"
+            cd "$DIR_NAME/$OTHERDIR"
+            sudo python3 exportMdFileToHtml.py Contents.md y y ../../obsidian_htmls/$OTHERDIR
+            rm -r exportMdFileToHtml.py
+            cd ../../obsidian_htmls/$OTHERDIR
+            sudo rm -f *.md
+            sudo rm -f *.html.md
+            cd ../..
+          fi
+        done
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add *
+        git commit -m "auto committing adding new html files"
+        git push
+        echo "Pushed changes to the repository."
+
