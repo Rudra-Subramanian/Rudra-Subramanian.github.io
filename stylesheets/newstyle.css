@@ -7,7 +7,7 @@ html,
     align-items: center;
     background-color: var(--bg-color);
     display: flex;
-    height: 100vh;
+    height: 80vh;
     justify-content: center;
     margin: 0px;
     overflow: hidden;
@@ -21,11 +21,17 @@ html,
     max-width: 916px;
     width: calc(100% - 20px);
   }
+
+  .header{
+    width: 300px
+  }
   
+  #cards:hover > .githubcard::after,
   #cards:hover > .card::after {
     opacity: 1;
   }
   
+  .githubcard,
   .card {
     background-color: rgba(154, 154, 154, 0.056);
     border-radius: 10px;
@@ -36,11 +42,14 @@ html,
     position: relative;
     width: 300px;  
   }
-  
+  .githubcard:hover::before,
   .card:hover::before {
     opacity: 1;
   }
   
+
+  .githubcard::before,
+  .githubcard::after,
   .card::before,
   .card::after {
     border-radius: inherit;
@@ -54,6 +63,7 @@ html,
     width: 100%;
   }
   
+  .githubcard::before,
   .card::before {
     background: radial-gradient(
       800px circle at var(--mouse-x) var(--mouse-y), 
@@ -63,6 +73,7 @@ html,
     z-index: 3;
   }
   
+  .githubcard::after,
   .card::after {  
     background: radial-gradient(
       600px circle at var(--mouse-x) var(--mouse-y), 
@@ -72,6 +83,7 @@ html,
     z-index: 1;
   }
   
+  .githubcard > .card-content,
   .card > .card-content {
     background-color: var(--card-color);
     border-radius: inherit;
@@ -139,6 +151,41 @@ html,
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.85em;
     margin-top: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0%;
+    transition: width 1s linear;
+
+  }
+
+
+
+  .githubcard > .card-content > .card-info-wrapper > .card-info > .card-info-title > h4 {
+    border-right: 1px solid rgba(0, 0, 0, 0.683);
+    animation: blink 1s step-end infinite;
+  }
+
+  .githubcard:hover .card-info-title > h4 {
+    width: 100%;
+    animation: blink 1s step-end infinite;
+  }
+
+  .card:hover .card-info-title > h4 {
+    width: 100%;
+  }
+
+  @keyframes typing {
+    from { width: 0%; }
+    to { width: 100%; }
+  }
+
+  @keyframes reversetyping {
+    from { width: 100%; }
+    to { width: 0%; }
+  }
+
+  @keyframes blink {
+    50% { border-color: transparent; }
   }
   
   /* -- ↓ ↓ ↓ some responsiveness ↓ ↓ ↓ -- */
@@ -197,4 +244,3 @@ html,
     }
   }
 
- 

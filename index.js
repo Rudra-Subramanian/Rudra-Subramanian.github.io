@@ -1,5 +1,6 @@
 document.getElementById("cards").onmousemove = e => {
-    for(const card of document.getElementsByClassName("card")) {
+    all_cards = document.querySelectorAll('.githubcard,.card');
+    for(const card of all_cards) {
       const rect = card.getBoundingClientRect(),
             x = e.clientX - rect.left,
             y = e.clientY - rect.top;
