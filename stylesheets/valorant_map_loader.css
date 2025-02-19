@@ -6,11 +6,21 @@ body {
 }
 
 #menu {  
+    /*
     align-items: center;
     display: flex;
     height: 100vh;
     width: 100vw;
-    overflow: hidden; /* Prevent scrolling */
+    margin-left: 5vw;
+    margin-right: 5vw;
+    */
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center;
+    height: 100vh;
+    width: 100vh; /* Add padding to the sides */
+    gap: 30vw;
+
 }
 
 .menu-item {
@@ -33,111 +43,142 @@ body {
   
 #menu-items:hover > a > .menu-item:hover {
     opacity: 1; 
+
 }
 
 #maps {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    position: absolute;
-    right: -20%; /* Move further to the right */
-    top: -52%;
+    position: relative;
+    top: 0vh;
     transition: top 0.4s ease; /* Add transition for smooth scrolling */
 }
 
 #maps div {
-    width: 20%;
+    width: 15vh;
     transition: all 0.4s ease;
 }
 
 /* Adjust the top position based on the active index */
+
 #menu[data-active-index="0"] > #maps {
-    top: 0%;
+    top: 80vh;
 }
 #menu[data-active-index="1"] > #maps {
-    top: -9.09%;
+    top: 64vh;
 }
 #menu[data-active-index="2"] > #maps {
-    top: -18.18%;
+    top: 48vh;
 }
 #menu[data-active-index="3"] > #maps {
-    top: -27.27%;
+    top: 32vh;
 }
 #menu[data-active-index="4"] > #maps {
-    top: -36.36%;
+    top: 16vh;
 }
 #menu[data-active-index="5"] > #maps {
-    top: -45.45%;
+    top: 0vh;
 }
 #menu[data-active-index="6"] > #maps {
-    top: -54.54%;
+    top: -16vh;
 }
 #menu[data-active-index="7"] > #maps {
-    top: -63.63%;
+    top: -32vh;
 }
 #menu[data-active-index="8"] > #maps {
-    top: -72.72%;
+    top: -48vh;
 }
 #menu[data-active-index="9"] > #maps {
-    top: -81.81%;
+    top: -64vh;
 }
 #menu[data-active-index="10"] > #maps {
-    top: -100.0%;
+    top: -80vh;
+}
+#menu[data-active-index="11"] > #maps {
+    top: 0vh;
 }
 
 /* Center the specific map image and increase its size */
 #menu[data-active-index="0"] > #maps div:nth-child(1) {
-    right: 80%;
-    transform: translateX(-200%) translateY(62%);
-    width: 50%;
+    width: 30vh;
+    position: relative;
+    margin-left: -45vw;
+    margin-right: -45vw;
 }
 #menu[data-active-index="1"] > #maps div:nth-child(2) {
-    right: 80%;
-    transform: translateX(-200%) translateY(52%);
-    width: 50%;
+    width: 30vh;
+    position: relative;
+    margin-left: -45vw;
+    margin-right: -45vw;
 }
 #menu[data-active-index="2"] > #maps div:nth-child(3) {
-    right: 80%;
-    transform: translateX(-200%) translateY(39%);
-    width: 50%;
+    position: relative;
+    margin-left: -45vw;
+    margin-right: -45vw;
+
+
+    width: 30vh;
 }
 #menu[data-active-index="3"] > #maps div:nth-child(4) {
-    right: 80%;
-    transform: translateX(-200%) translateY(26%);
-    width: 50%;
+    position: relative;
+    margin-left: -45vw;
+    margin-right: -45vw;
+
+
+    width: 30vh;
 }
 #menu[data-active-index="4"] > #maps div:nth-child(5) {
-    right: 80%;
-    transform: translateX(-200%) translateY(13%);
-    width: 50%;
+    position: relative;
+    margin-left: -45vw;
+    margin-right: -45vw;
+
+
+    width: 30vh;
 }
 #menu[data-active-index="5"] > #maps div:nth-child(6) {
-    right: 80%;
-    transform: translateX(-200%) translateY(0%);
-    width: 50%;
+    position: relative;
+    margin-left: -45vw;
+    margin-right: -45vw;
+
+
+    width: 30vh;
 }
 #menu[data-active-index="6"] > #maps div:nth-child(7) {
-    right: 80%;
-    transform: translateX(-200%) translateY(-13%);
-    width: 50%;
+    position: relative;
+    margin-left: -45vw;
+    margin-right: -45vw;
+
+
+    width: 30vh;
 }
 #menu[data-active-index="7"] > #maps div:nth-child(8) {
-    right: 80%;
-    transform: translateX(-200%) translateY(-26%);
-    width: 50%;
+    position: relative;
+    margin-left: -45vw;
+    margin-right: -45vw;
+
+
+    width: 30vh;
 }
 #menu[data-active-index="8"] > #maps div:nth-child(9) {
-    right: 80%;
-    transform: translateX(-200%) translateY(-39%);
-    width: 50%;
+    position: relative;
+    margin-left: -45vw;
+    margin-right: -45vw;
+
+
+    width: 30vh;
 }
 #menu[data-active-index="9"] > #maps div:nth-child(10) {
-    right: 80%;
-    transform: translateX(-200%) translateY(-52%);
-    width: 50%;
+    position: relative;
+    margin-left: -45vw;
+    margin-right: -45vw;
+
+    width: 30vh;
 }
 #menu[data-active-index="10"] > #maps div:nth-child(11) {
-    right: 80%;
-    transform: translateX(-200%) translateY(-62%);
-    width: 50%;
+    position: relative;
+    margin-left: -45vw;
+    margin-right: -45vw;
+
+
+    width: 30vh;
 }
