@@ -1,0 +1,143 @@
+html,
+body {
+    margin: 0px;
+    background-color: rgb(20, 20, 20);
+    overflow: hidden; /* Prevent scrolling */
+}
+
+#menu {  
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.menu-item {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: clamp(3rem, 2vw, 8rem);
+    text-decoration: none;
+    transition: opacity 400ms ease;
+}
+
+#menu-items {
+    margin-left: clamp(10%, 10vw, 20%);
+}
+
+#menu-items:hover > a > .menu-item {
+    opacity: 0.3;
+}
+  
+#menu-items:hover > a > .menu-item:hover {
+    opacity: 1; 
+}
+
+#maps {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: absolute;
+    right: -20%; /* Move further to the right */
+    top: -52%;
+    transition: top 0.4s ease; /* Add transition for smooth scrolling */
+}
+
+#maps div {
+    width: 20%;
+    transition: all 0.4s ease;
+}
+
+/* Adjust the top position based on the active index */
+#menu[data-active-index="0"] > #maps {
+    top: 0%;
+}
+#menu[data-active-index="1"] > #maps {
+    top: -9.09%;
+}
+#menu[data-active-index="2"] > #maps {
+    top: -18.18%;
+}
+#menu[data-active-index="3"] > #maps {
+    top: -27.27%;
+}
+#menu[data-active-index="4"] > #maps {
+    top: -36.36%;
+}
+#menu[data-active-index="5"] > #maps {
+    top: -45.45%;
+}
+#menu[data-active-index="6"] > #maps {
+    top: -54.54%;
+}
+#menu[data-active-index="7"] > #maps {
+    top: -63.63%;
+}
+#menu[data-active-index="8"] > #maps {
+    top: -72.72%;
+}
+#menu[data-active-index="9"] > #maps {
+    top: -81.81%;
+}
+#menu[data-active-index="10"] > #maps {
+    top: -100.0%;
+}
+
+/* Center the specific map image and increase its size */
+#menu[data-active-index="0"] > #maps div:nth-child(1) {
+    right: 80%;
+    transform: translateX(-200%) translateY(62%);
+    width: 50%;
+}
+#menu[data-active-index="1"] > #maps div:nth-child(2) {
+    right: 80%;
+    transform: translateX(-200%) translateY(52%);
+    width: 50%;
+}
+#menu[data-active-index="2"] > #maps div:nth-child(3) {
+    right: 80%;
+    transform: translateX(-200%) translateY(39%);
+    width: 50%;
+}
+#menu[data-active-index="3"] > #maps div:nth-child(4) {
+    right: 80%;
+    transform: translateX(-200%) translateY(26%);
+    width: 50%;
+}
+#menu[data-active-index="4"] > #maps div:nth-child(5) {
+    right: 80%;
+    transform: translateX(-200%) translateY(13%);
+    width: 50%;
+}
+#menu[data-active-index="5"] > #maps div:nth-child(6) {
+    right: 80%;
+    transform: translateX(-200%) translateY(0%);
+    width: 50%;
+}
+#menu[data-active-index="6"] > #maps div:nth-child(7) {
+    right: 80%;
+    transform: translateX(-200%) translateY(-13%);
+    width: 50%;
+}
+#menu[data-active-index="7"] > #maps div:nth-child(8) {
+    right: 80%;
+    transform: translateX(-200%) translateY(-26%);
+    width: 50%;
+}
+#menu[data-active-index="8"] > #maps div:nth-child(9) {
+    right: 80%;
+    transform: translateX(-200%) translateY(-39%);
+    width: 50%;
+}
+#menu[data-active-index="9"] > #maps div:nth-child(10) {
+    right: 80%;
+    transform: translateX(-200%) translateY(-52%);
+    width: 50%;
+}
+#menu[data-active-index="10"] > #maps div:nth-child(11) {
+    right: 80%;
+    transform: translateX(-200%) translateY(-62%);
+    width: 50%;
+}
