@@ -10,7 +10,6 @@ html,
     height: 80vh;
     justify-content: center;
     margin: 0px;
-    overflow: hidden;
     padding: 0px;
   }
   
@@ -21,6 +20,12 @@ html,
     max-width: 916px;
     width: calc(100% - 20px);
   }
+
+  .cards{
+    container: cardbox / size;
+  }
+
+  /*making container for cards*/
 
   .header{
     width: 300px
@@ -42,6 +47,15 @@ html,
     position: relative;
     width: 300px;  
   }
+
+  .videocard { 
+    opacity: 0.5;
+    width: 250%;
+    justify-content: center;
+  }
+
+
+
   .githubcard:hover::before,
   .card:hover::before {
     opacity: 1;
@@ -160,6 +174,7 @@ html,
 
 
 
+
   .githubcard > .card-content > .card-info-wrapper > .card-info > .card-info-title > h4 {
     border-right: 1px solid rgba(0, 0, 0, 0.683);
     animation: blink 1s step-end infinite;
@@ -189,58 +204,90 @@ html,
   }
   
   /* -- ↓ ↓ ↓ some responsiveness ↓ ↓ ↓ -- */
-  
-  @media(max-width: 1000px) {
+  @media (width < 963px) or (orientation: portrait){
     body {
-      align-items: flex-start;  
-      overflow: auto;
+      align-items: center;
+      background-color: var(--bg-color);
+      display: flex;
+      margin: 0px;
+      justify-content: center;
+      align-items: start;
+      padding: 0px;
+
     }
     
-    #cards {    
-      max-width: 1000px;
-      padding: 10px 0px;
+    #cards {
+      display: flex;
+      flex-wrap: wrap;
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;  
+      height: 100vh;
     }
-    
+
+    .githubcard,
     .card {
-      flex-shrink: 1;
-      width: calc(50% - 4px);
+      background-color: rgba(154, 154, 154, 0.056);
+      border-radius: 10px;
+      cursor: pointer;
+      display: flex;
+      height: 30vh;
+      flex-direction: column;
+      position: relative;
+      width: 65vw;  
     }
-  }
-  
-  @media(max-width: 500px) {
-    .card {
-      height: 180px;
-    }
-    
-    .card-image {
-      height: 80px;  
-    }
-    
-    .card-image > i {
+
+    .card-info > i {  
       font-size: 3em;
-    }
-      
-    .card-info-wrapper {
-      padding: 0px 10px;
-    }
-    
-    .card-info > i { 
-      font-size: 0.8em; 
+      height: 20px;
+      line-height: 20px;
     }
     
     .card-info-title > h3 {
-      font-size: 0.9em;
+      font-size: 2.5em;
+      line-height: 20px;
     }
-  
+    
     .card-info-title > h4 {
-      font-size: 0.8em;
-      margin-top: 4px;
-    }
-  }
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 2em;
+      margin-top: 8px;
+      overflow: hidden;
+      white-space: nowrap;
+      width: 0%;
+      transition: width 1s linear;
   
-  @media(max-width: 320px) {
-    .card {
-      width: 100%;
     }
-  }
+  
+  
+  
+  
+    .githubcard > .card-content > .card-info-wrapper > .card-info > .card-info-title > h4 {
+      border-right: 1px solid rgba(0, 0, 0, 0.683);
+      animation: blink 1s step-end infinite;
+    }
 
+    .card-image {
+      align-items: center;
+      display: flex;
+      height: 140px;
+      justify-content: center;
+      flex-grow: 1;
+      overflow: hidden;
+    }
+    
+    .card-image > i {
+      font-size: 6em;
+      opacity: 0.25;
+    }
+    
+    .card-info-wrapper {
+      align-items: center;
+      display: flex;
+      justify-content: flex-start;
+      padding: 0px 20px;
+    }
+  
+
+  }
