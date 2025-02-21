@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Agents/Omen.md",
+                "file": "Agents/Raze.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Omen"
+              "title": "Raze"
             }
           },
           {
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Agents/Omen.md",
+                "file": "Agents/Raze.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Omen"
+              "title": "Backlinks for Raze"
             }
           },
           {
@@ -184,6 +184,7 @@
   },
   "active": "426c62651d76efc0",
   "lastOpenFiles": [
+    "Agents/Omen.md",
     "Agents/Cypher.md",
     "Agents/Breach.md",
     "Attack/fast b split.md",
@@ -218,7 +219,6 @@
     "Agents/Tejo.md",
     "Agents/Sova.md",
     "Agents/Jett.md",
-    "Agents/Omen.md",
     "Conte",
     "Defence",
     "Attack",
