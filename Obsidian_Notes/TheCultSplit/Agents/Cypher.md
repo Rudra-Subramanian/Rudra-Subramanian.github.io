@@ -10,6 +10,8 @@
 
 ### Defense
 
+[[Eco push B defence]]
+[[Cypher A Default]]
 
 ### Lineups
 [[Cypher A cage main lineup]]
