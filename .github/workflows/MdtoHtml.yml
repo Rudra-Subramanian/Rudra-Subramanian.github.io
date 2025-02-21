@@ -37,7 +37,8 @@ jobs:
       run: |
         echo "Fetching changed directories..."
         git fetch --depth=2 # Ensure we have the previous commit
-        CHANGED_FOLDERS=$(git diff --name-only HEAD^ HEAD | awk -F'/' '{print $0}' | sort -u)
+        PREV_COMMIT=$(git rev-parse HEAD^)
+        CHANGED_FOLDERS=$(git diff --name-only $PREV_COMMIT HEAD | awk -F'/' '{print $0}' | sort -u)
         echo "Changed folders:"
         for file in $CHANGED_FOLDERS; do
           echo "processing file: $file"
