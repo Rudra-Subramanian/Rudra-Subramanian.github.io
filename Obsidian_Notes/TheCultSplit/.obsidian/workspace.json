@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "b28407b8e0e22eb6",
+    "type": "split",
+    "children": [
+      {
+        "id": "96b51433b37250d1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "426c62651d76efc0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Agents/Breach.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Breach"
+            }
+          },
+          {
+            "id": "ca5757aefcb71796",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lineups/Cypher A cage main lineup.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Cypher A cage main lineup"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4b76330b86b85ac2",
+    "type": "split",
+    "children": [
+      {
+        "id": "4de5e5c3de99a4a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6bb1e33d2cea46e3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f1d56ef570c7744a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "859fd770c0e647a0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "94a37a68c41ecc50",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d7239857599c3ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aadabebc15d64e7d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Agents/Breach.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Breach"
+            }
+          },
+          {
+            "id": "5e049a701bcdbe25",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Agents/Breach.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Breach"
+            }
+          },
+          {
+            "id": "7766fdff6de835e6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ed2fd025ad74fb59",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Agents/Breach.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Breach"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "426c62651d76efc0",
+  "lastOpenFiles": [
+    "Attack/fast b split.md",
+    "Attack/into A hit.md",
+    "Defence/Cypher A Default.md",
+    "Lineups/Cypher A cage main lineup.md",
+    "Lineups/Pasted image 20250221102517.png",
+    "Lineups/cypher_a_lineup1.png",
+    "Lineups/Pasted image 20250221101840.png",
+    "Defence.md",
+    "Lineups/Pasted image 20250221102039.png",
+    "Lineups/Pasted image 20250221101923.png",
+    "Lineups/cypher_A_Default.png",
+    "Defence/Eco push B defence.md",
+    "Lineups/def_b_push_eco.png",
+    "Defence/Cypher B Default.md",
+    "Lineups/Pasted image 20250221100612.png",
+    "Lineups/defence_cypherB.png",
+    "Contents.md",
+    "Agents/Cypher.md",
+    "Agents/Breach.md",
+    "Agents/Raze.md",
+    "Templates/content_template.md",
+    "Attack/Ramp default.md",
+    "Lineups/Pasted image 20250221094942.png",
+    "Attack/into A split.md",
+    "Attack/into B split.md",
+    "Attack/Mid default.md",
+    "Attack/Eco Rush mid.md",
+    "Attack/Anti Eco A heaven.md",
+    "Attack/B default attack.md",
+    "Attack/fast b.md",
+    "Attack/Attack.md",
+    "Agents/Tejo.md",
+    "Agents/Sova.md",
+    "Agents/Jett.md",
+    "Agents/Omen.md",
+    "Conte",
+    "Defence",
+    "Attack",
+    "Lineups",
+    "Agents",
+    "Templates"
+  ]
+}
