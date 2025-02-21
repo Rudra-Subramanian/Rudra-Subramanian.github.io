@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Agents/Cypher.md",
+                "file": "Agents/Omen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cypher"
+              "title": "Omen"
             }
           },
           {
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Agents/Cypher.md",
+                "file": "Agents/Omen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Cypher"
+              "title": "Backlinks for Omen"
             }
           },
           {
@@ -184,6 +184,7 @@
   },
   "active": "426c62651d76efc0",
   "lastOpenFiles": [
+    "Agents/Cypher.md",
     "Agents/Breach.md",
     "Attack/fast b split.md",
     "Attack/into A hit.md",
@@ -202,7 +203,6 @@
     "Lineups/Pasted image 20250221100612.png",
     "Lineups/defence_cypherB.png",
     "Contents.md",
-    "Agents/Cypher.md",
     "Agents/Raze.md",
     "Templates/content_template.md",
     "Attack/Ramp default.md",
