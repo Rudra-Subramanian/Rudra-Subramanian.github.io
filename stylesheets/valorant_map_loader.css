@@ -3,6 +3,7 @@ body {
     background-color: #091014;
     height: 100dvh;
     width: 100dvw;
+    overflow: hidden;
 }
 
 
