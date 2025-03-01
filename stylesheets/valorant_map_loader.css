@@ -1,20 +1,18 @@
 html,
 body {
-    margin: 0px;
-    background-color: rgb(20, 20, 20); /* Prevent scrolling */
+    background-color: #091014;
     height: 100dvh;
     width: 100dvw;
 }
 
 
 #middle-map{
-    width: 100%;
+    width: 70dvw
 }
 
 #middle-map > img{
     opacity: 0;
 }
-
 #menu {  
     /*
     align-items: center;
@@ -24,21 +22,20 @@ body {
 
     */
     overflow:hidden;
-    display: flex;
-    justify-content: space-between; /* Distribute space between items */
+    display: flex;/* Distribute space between items */
     align-items: center;
     height: 100%;
 
-    gap: 5vw;
+    gap: 0;
     margin-left: 2vw;
     margin-right: 2vw;
-    width:auto; /* Add padding to the sides */
+ /* Add padding to the sides */
 
 }
 
 #map-titles{
 
-    margin-left: 0;
+    margin-left: 30px;
     margin-right: 0;
 
 }
@@ -53,7 +50,9 @@ body {
     transition: opacity 400ms ease;
 }
 
-
+#menu-items {
+    margin-left: clamp(10%, 10vw, 20%);
+}
 
 #menu-items:hover > a > .menu-item {
     opacity: 0.3;
@@ -61,7 +60,6 @@ body {
   
 #menu-items:hover > a > .menu-item:hover {
     opacity: 1; 
-
 }
 
 #maps {
@@ -75,6 +73,11 @@ body {
 #maps div {
     width: 15vh;
     transition: all 0.4s ease;
+}
+
+#maps > img {
+    width: 20%;
+    height: auto;
 }
 
 /* Adjust the top position based on the active index 
@@ -118,7 +121,6 @@ body {
 }
 
 /* Center the specific map image and increase its size */
-
 #menu[data-active-index="0"] > #maps div:nth-child(1) {
     width: 50vh;
     position: relative;
@@ -203,15 +205,32 @@ body {
     width: 50vh;
 }
 
+.transition-hero {
+    view-transition-name: hero;
+}
+
 /* */
+@view-transition {
+    navigation: auto;
+}
+::view-transition-old(*),
+::view-transition-new(*) {
+  animation-duration: 0.2s;
+}
+
+  
+
 
 @media (orientation: portrait) {
+    @view-transition {
+        navigation: auto;
+    }
 
 
 
     #middle-map > img{
         opacity: 1;
-        height: 100%;
+        height: 40dvh;
         overflow: scroll;
     }
 
@@ -242,6 +261,7 @@ body {
 
     
     #menu-items {
+        margin-left: 0;
         display: grid;
         grid-auto-flow: column;
         overflow-x: scroll;
@@ -249,9 +269,10 @@ body {
         gap: clamp(3em, 4em, 6em);
         -ms-overflow-style: none;  /* Internet Explorer 10+ */
         scrollbar-width: none;
-        padding-left: 50vw; /* Center the first item */
-        padding-right: 50vw; /* Center the last item */
+        padding-left: 45dvw; /* Center the first item */
+        padding-right: 45dvw; /* Center the last item */
         scroll-snap-type: x mandatory;
+        grid-template-columns: repeat(11, 300px);
     }
 
 
@@ -272,12 +293,18 @@ body {
         display: grid;
         grid-auto-flow: column;
         overflow: visible;
-        padding-left: 50vw; /* Center the first item */
-        padding-right: 50vw;
+        padding-left: 45dvw; /* Center the first item */
+        padding-right: 45dvw;
         gap: clamp(3em, 4em, 6em); /* Add spacing to match the menu items */
+        grid-template-columns: repeat(11, 300px);
     }
     #maps > div{
         scroll-snap-align: center;
+    }
+
+    #maps > img {
+        width: clamp(5rem, 4vw, 8rem);
+        
     }
     .menu-item {
         gap: 5px;
@@ -290,3 +317,5 @@ body {
     }
     
 }
+
+

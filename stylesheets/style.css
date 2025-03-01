@@ -2,6 +2,9 @@ html,
 :root {
     --bg-color: rgb(20, 20, 20);
   }
+  @view-transition {
+    navigation: auto;
+  }
   
   body {
     align-items: center;
@@ -291,3 +294,5 @@ html,
   
 
   }
+
+

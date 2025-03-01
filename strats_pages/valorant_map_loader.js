@@ -20,16 +20,6 @@ if (window.matchMedia("(orientation: landscape)").matches) {
         //   marginRight: '-45vw',
         // })
       };
-    //   menuItems.onmouseleave = () => {
-    //     maps.style.top = '0vh';
-    //     Object.assign(map_items[index].style, {
-    //       width: maps.style.width,
-    //       position: maps.style.position,
-    //       MarginLeft: maps,
-    //       MarginRight: 'inherit',
-    //     })
-
-    // };
 
 
     });

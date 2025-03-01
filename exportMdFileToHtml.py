@@ -275,6 +275,7 @@ def readFilesRecursive(path):
             outputfile.write("\t.codeblock { \n\tbackground: #B0B0B0; padding:1px 10px 0px 10px; border-radius: 5px; overflow-x:auto; \n\t}\n")
             outputfile.write("\tcode {\n font-family: monospace; font-size: inherit; color: #202020; \n\t}\n")
             outputfile.write("\t.inlineCoed {\n font-family: monospace; font-size: inherit; color: #202020; \n\t}\n")
+            outputfile.write("\t@view-transition {\n navigation: auto; \n\t}\n")
             outputfile.write("</style>\n")
             outputfile.write("</head>\n")
             

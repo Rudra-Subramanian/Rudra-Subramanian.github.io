@@ -33,8 +33,9 @@ body {
     flex: 1 100px;
     background-color: #f26429;
   }
+
   
-  @media only screen and (orientation: portrait) {
+@media only screen and (orientation: portrait) {
     .container {
       display: flex;
       flex-flow: column;
