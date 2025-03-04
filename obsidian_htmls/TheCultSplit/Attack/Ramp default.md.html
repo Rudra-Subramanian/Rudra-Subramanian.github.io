@@ -17,11 +17,14 @@
 	.inlineCoed {
  font-family: monospace; font-size: inherit; color: #202020; 
 	}
+	@view-transition {
+ navigation: auto; 
+	}
 </style>
 </head>
 <body style="background: #F0F0F0;">
 <div style="margin: 0 auto; width:1380px;  position: relative;" >
-<div style="width:1000px; padding:20px; margin:0px; z-index: 5; text-align:left; background-color: #DCDCDC; border-radius: 5px; position:absolute; top:0; left:340px;">
+<div class="main-div" style="width:1000px; padding:20px; margin:0px; z-index: 5; text-align:left; background-color: #DCDCDC; border-radius: 5px; position:absolute; top:0; left:340px;">
 <h1 style="margin-left:0px;" id="Ramp_Default">Ramp Default</h1>
 <p></p>
 <p></p>
@@ -38,7 +41,7 @@
 <p></p>
 <p>Can go into A hit</p>
 </div>
-<div style="width:345px; padding-top: 20px;; position:absolute; top:0; left:0; overflow:auto;">
+<div class="tree-div" style="width:345px; padding-top: 20px;; position:absolute; top:0; left:0; overflow:auto;">
 	<iframe src="../treeview.html" width="340px" frameBorder="0" height="900px"></iframe>
 </div>
 </div>
