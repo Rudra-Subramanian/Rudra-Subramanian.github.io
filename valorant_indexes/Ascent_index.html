@@ -47,6 +47,59 @@
             </div>
         </div>
     </div>
+    <style>
+
+        .Map {
+            background-size: 0;
+            animation: pan-image 100s ease-in-out 4s infinite normal forwards;
+        }
+        @keyframes pan-image {  
+          0% {
+    background-position: -5% 0%;
+    background-size: 200%;
+  }
+  
+  20% {
+    
+    background-position: 0% 70% ;
+    background-size: 300%;
+  }
+  
+  20.0001% { /* -- View 2 -- */
+    background-position: 50% 60%;
+    background-size: 400%;
+  }
+  
+  40% {
+    background-position: 100% 75%;
+    background-size: 350%;
+  }
+  
+  40.0001% { /* -- View 3 -- */
+    background-position: 60% 80%;
+    background-size: 450%;
+  }
+  
+  60% {
+    background-position: 50% 0% ;
+    background-size: 450%;
+  }
+  60.0001% { /* -- View 4 -- */
+    background-position: 30% 75%;
+    background-size: 500%;
+  }
+  100% {
+    background-position: 65% 15%;
+    background-size: 500%;
+  }
+}
+
+
+    </style>
     <script src="map_index.js"></script>
 </body>
 </html>
+
+
+
+    
