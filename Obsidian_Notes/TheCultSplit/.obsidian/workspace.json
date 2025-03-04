@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Agents/Raze.md",
+                "file": "Contents.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Raze"
+              "title": "Contents"
             }
           },
           {
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Agents/Raze.md",
+                "file": "Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Raze"
+              "title": "Backlinks for Contents"
             }
           },
           {
@@ -184,6 +184,7 @@
   },
   "active": "426c62651d76efc0",
   "lastOpenFiles": [
+    "Agents/Raze.md",
     "Agents/Omen.md",
     "Agents/Cypher.md",
     "Agents/Breach.md",
@@ -204,7 +205,6 @@
     "Lineups/Pasted image 20250221100612.png",
     "Lineups/defence_cypherB.png",
     "Contents.md",
-    "Agents/Raze.md",
     "Templates/content_template.md",
     "Attack/Ramp default.md",
     "Lineups/Pasted image 20250221094942.png",

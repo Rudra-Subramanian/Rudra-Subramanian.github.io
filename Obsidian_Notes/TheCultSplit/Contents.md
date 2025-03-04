@@ -1,6 +1,6 @@
-# Split
+# The Cult Split
 
-The Cult split playbook
+
 Comp:
 
 Justin : [[Omen]]

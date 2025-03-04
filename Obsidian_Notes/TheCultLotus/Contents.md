@@ -1,5 +1,5 @@
 
-# Lotus
+# The Cult Lotus
 
 Comp:
 

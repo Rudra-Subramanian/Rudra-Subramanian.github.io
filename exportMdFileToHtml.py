@@ -282,7 +282,8 @@ def readFilesRecursive(path):
             outputfile.write('<body style="background: #F0F0F0;">\n')
             outputfile.write('<div style="margin: 0 auto; width:1380px;  position: relative;" >\n')
             
-            outputfile.write('<div style="width:1000px; padding:20px; margin:0px; z-index: 5; text-align:left; background-color: #DCDCDC; border-radius: 5px; position:absolute; top:0; left:340px;">\n')
+            #Main portion of text (styling is here)
+            outputfile.write('<div class="main-div" style="width:1000px; padding:20px; margin:0px; z-index: 5; text-align:left; background-color: #DCDCDC; border-radius: 5px; position:absolute; top:0; left:340px;">\n')
             InCodeBlock = False
             InComment = False
             for line in data:
@@ -318,7 +319,7 @@ def readFilesRecursive(path):
                 outputfile.write(line)
             outputfile.write("</div>\n")
             b = str(findRelPath(".",path))
-            outputfile.write('<div style="width:345px; padding-top: 20px;; position:absolute; top:0; left:0; overflow:auto;">\n')
+            outputfile.write('<div class="tree-div" style="width:345px; padding-top: 20px;; position:absolute; top:0; left:0; overflow:auto;">\n')
             outputfile.write('\t<iframe src="' + str(findRelPath(".",path))[:-1] + 'treeview.html" width="340px" frameBorder="0" height="900px"></iframe>\n')
             outputfile.write("</div>\n")
 

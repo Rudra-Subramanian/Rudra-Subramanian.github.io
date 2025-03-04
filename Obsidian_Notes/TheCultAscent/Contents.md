@@ -1,5 +1,5 @@
 
-COMP:
+COMP - 
 
 Justin : [[Omen]]
 HK : [[Tejo]]
@@ -34,3 +34,4 @@ Connor: [[Cypher]]
 	[[postaplant A	]]	
 	[[postplant B	]]	
 	[[Tejo Ult]]
+

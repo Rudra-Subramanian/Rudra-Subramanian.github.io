@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Attack.md",
+                "file": "Contents.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Attack"
+              "title": "Contents"
             },
             "group": "1feffb47bc07e12c"
           }
@@ -36,7 +36,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attack.md",
+                "file": "Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -46,7 +46,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Attack"
+              "title": "Backlinks for Contents"
             },
             "group": "1feffb47bc07e12c"
           }
@@ -199,10 +199,10 @@
   },
   "active": "a37bb341a3fc86f7",
   "lastOpenFiles": [
+    "Attack.md",
     "Attack/C default.md",
     "Lineups/C_pause_smoke.png",
     "Lineups/c_default_attack.png",
-    "Attack.md",
     "Attack/A defualt.md",
     "Lineups/cypher_attack_a_default.png",
     "Contents.md",
