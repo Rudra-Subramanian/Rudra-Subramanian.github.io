@@ -7,13 +7,13 @@
 <body>
     <div class="Gridbox">
         <div class="left_options">
-            <div class="menu-item">
+            <div class="menu-item menu-transition">
                 Playbooks
             </div>
-            <div class="menu-item">
+            <div class="menu-item menu-transition">
                 Lone Strats
             </div>
-            <div class="menu-item">
+            <div class="menu-item menu-transition">
                 Lineups
             </div>
             <a href="../strats_pages/valorant_map_loader.html" style="text-decoration: none;">
@@ -22,8 +22,8 @@
                 </div>
             </a>
         </div>
-        <div class="Map"  style="view-transition-name: Abyss-hero;">
-            <img src="../images/Abyss_minimap.png" alt="AbyssMap">
+        <div class="Map"  style="view-transition-name: Abyss-hero; background-image: url(../images/abyss_populated.png);" >
+            <img src="../images/Abyss_minimap.png" alt="AbyssMap" style="z-index: 2;">
         </div>
         <div class="Filter">
             <h1>ABYSS</h1>
@@ -37,6 +37,65 @@
             </div>
         </div>
     </div>
+    <style>
+
+        .Map {
+            animation: pan-image 30s ease 4s infinite normal forwards;
+        }
+        @keyframes pan-image {  
+  0% {
+    background-position: 36% 42%;
+    background-size: 200%;
+  }
+  
+  20% {
+    background-position: 30% 35%;
+    background-size: 200%;
+  }
+  
+  20.0001% { /* -- View 2 -- */
+    background-position: 60% 85%;
+    background-size: 500%;
+  }
+  
+  40% {
+    background-position: 49% 81%;
+    background-size: 500%;
+  }
+  
+  40.0001% { /* -- View 3 -- */
+    background-position: 80% 42%;
+    background-size: 300%;
+  }
+  
+  60% {
+    background-position: 84% 33%;
+    background-size: 300%;
+  }
+  
+  60.0001% { /* -- View 4 -- */
+    background-position: 0% 0%;
+    background-size: 300%;
+  }
+  
+  80% {
+    background-position: 15% 4%;
+    background-size: 300%;
+  }
+  
+  80.0001% { /* -- View 5 -- */
+    background-position: 80% 10%;
+    background-size: 300%;
+  }
+  
+  100% {
+    background-position: 72% 14%;
+    background-size: 300%;
+  }
+}
+
+
+    </style>
     <script src="map_index.js"></script>
 </body>
 </html>

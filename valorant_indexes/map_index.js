@@ -1,4 +1,4 @@
-let menuItems = Array.from(document.getElementsByClassName("menu-item"));
+let menuItems = Array.from(document.getElementsByClassName("menu-transition"));
 let right_menu = document.getElementsByClassName("right_options");
 let right_menu_panels = right_menu[0].children;
 console.log(Array.from(right_menu_panels));
