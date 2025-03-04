@@ -40,57 +40,47 @@
     <style>
 
         .Map {
-            animation: pan-image 30s ease 4s infinite normal forwards;
+            background-size: 0;
+            animation: pan-image 100s ease-in-out 4s infinite normal forwards;
         }
         @keyframes pan-image {  
-  0% {
-    background-position: 36% 42%;
+          0% {
+    background-position: -5% 0%;
     background-size: 200%;
   }
   
   20% {
-    background-position: 30% 35%;
-    background-size: 200%;
+    
+    background-position: 0% 70% ;
+    background-size: 300%;
   }
   
   20.0001% { /* -- View 2 -- */
-    background-position: 60% 85%;
-    background-size: 500%;
+    background-position: 50% 60%;
+    background-size: 400%;
   }
   
   40% {
-    background-position: 49% 81%;
-    background-size: 500%;
+    background-position: 100% 75%;
+    background-size: 350%;
   }
   
   40.0001% { /* -- View 3 -- */
-    background-position: 80% 42%;
-    background-size: 300%;
+    background-position: 90% 14%;
+    background-size: 500%;
   }
   
   60% {
-    background-position: 84% 33%;
-    background-size: 300%;
+    background-position: 90% 20%;
+    background-size: 500%;
   }
-  
   60.0001% { /* -- View 4 -- */
-    background-position: 0% 0%;
-    background-size: 300%;
+    background-position: 15% 75%;
+    background-size: 500%;
   }
-  
-  80% {
-    background-position: 15% 4%;
-    background-size: 300%;
-  }
-  
-  80.0001% { /* -- View 5 -- */
-    background-position: 80% 10%;
-    background-size: 300%;
-  }
-  
   100% {
-    background-position: 72% 14%;
-    background-size: 300%;
+    background-position: 75% 15%;
+    background-size: 500%;
   }
 }
 
