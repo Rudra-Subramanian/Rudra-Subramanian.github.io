@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defence.md",
+                "file": "Contents.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Defence"
+              "title": "Contents"
             }
           }
         ],
@@ -185,8 +185,9 @@
   },
   "active": "b64f5c82260cba75",
   "lastOpenFiles": [
-    "Attack.md",
     "Defence.md",
+    "Defense/Viper A default.md",
+    "Attack.md",
     "Defense/Viper C reactions-midrounds.md",
     "images/kayo flash a.png",
     "Defense/Viper C default.md",
@@ -197,7 +198,6 @@
     "Defense/Viper A reactions-midrounds.md",
     "images/phoenix gekko mound trap.png",
     "images/Viper A slow reactions.png",
-    "Defense/Viper A default.md",
     "images/Viper a good default.png",
     "Contents.md",
     "Defense/C Mound trap.md",
