@@ -1,5 +1,7 @@
 This half is based on making reads to stack/actively passively reclear areas using kayo knife info
 
+Get Harbor an op and play traps off the op contact 
+
 [[Defence Pistol]]
 [[Defence buy_up]] / [[Defence Eco]]
 [[Defence Bonus]] / [[Defence Buy]]
