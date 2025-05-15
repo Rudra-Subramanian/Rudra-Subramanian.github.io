@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "Defence"
             }
+          },
+          {
+            "id": "c2b54460c3c695b6",
+            "type": "leaf",
+            "state": {
+              "type": "video",
+              "state": {
+                "file": "images/Gekko A main dizzy.mp4"
+              },
+              "icon": "lucide-file",
+              "title": "Gekko A main dizzy"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -183,11 +195,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b64f5c82260cba75",
+  "active": "c2b54460c3c695b6",
   "lastOpenFiles": [
-    "Contents.md",
-    "Attack.md",
+    "Templates/Lineup.md",
+    "images/Gekko A main dizzy.mp4",
+    "Agents/Gekko.md",
     "Defence.md",
+    "Attack.md",
+    "Contents.md",
     "Defense/Viper A default.md",
     "Defense/Viper C reactions-midrounds.md",
     "images/kayo flash a.png",
@@ -213,11 +228,9 @@
     "Agents/Viper.md",
     "Agents/Harbor.md",
     "Agents/Kayo.md",
-    "Agents/Gekko.md",
     "Templates/Valoplant Strat.md",
     "Untitled.md",
     "Agents",
-    "Templates/Lineup.md",
     "Templates/Agent_template.md",
     "Templates",
     "Welcome.md",
