@@ -39,12 +39,14 @@
             "id": "c2b54460c3c695b6",
             "type": "leaf",
             "state": {
-              "type": "video",
+              "type": "markdown",
               "state": {
-                "file": "images/Gekko A main dizzy.mp4"
+                "file": "Contents.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Gekko A main dizzy"
+              "title": "Contents"
             }
           }
         ],
@@ -197,9 +199,9 @@
   },
   "active": "c2b54460c3c695b6",
   "lastOpenFiles": [
-    "Templates/Lineup.md",
-    "images/Gekko A main dizzy.mp4",
     "Agents/Gekko.md",
+    "images/Gekko A main dizzy.mp4",
+    "Templates/Lineup.md",
     "Defence.md",
     "Attack.md",
     "Contents.md",

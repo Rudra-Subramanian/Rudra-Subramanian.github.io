@@ -1,3 +1,4 @@
+
 ### Comp:
 
 [[Gekko]] - Devaka
@@ -29,7 +30,7 @@ This half is based on making reads to stack/actively passively reclear areas usi
 [[Retake B]]
 [[Push B]]
 
-
+for anyone's use
 
 
 # [[Attack]]
