@@ -116,7 +116,11 @@ def findImages(line, currentFile):
             style = 'border-radius: 4px;"'
             if('|' in asset):
                 style = style + 'width:' + asset.split('|')[1] + 'px; border-radius: 3px;'
-            line = line.replace("![[" + asset + "]]", '<img src="./' + img + '" alt="' + img.replace("\\","/").split("/")[-1] + '" style="' + style + '" >')
+            if ('mp4' in img):
+                line = line.replace("![["+ asset+"]]", '\n\t<video width="900" height="500" controls>\n\t\t<source src="./' + img + '" type="video/mp4">\n\t</video>')
+            else:
+                line = line.replace("![[" + asset + "]]", '<img src="./' + img + '" alt="' + img.replace("\\","/").split("/")[-1] + '" style="' + style + '" >')
+            print(line)
     
     pattern = re.compile(r"!\[(.*)\]\((.*)\)")
     for size,imglink in re.findall(pattern,line):
@@ -129,6 +133,7 @@ def findImages(line, currentFile):
                 style = 'border-radius: 4px;"'
                 if('|' in imglink):
                     style = style + 'width:' + imglink.split('|')[1] + 'px; border-radius: 3px;'
+                
                 line = line.replace("![" + size + "](" + originallink + ")", '<img src="./' + imglink + '" alt="' + imglink.replace("\\","/").split("/")[-1] + '" style="' + style + '" >')
             elif downloadImages:
                 imgname = 'utl_download_' + str(randint(0,10000)) + imglink.split("/")[-1]
