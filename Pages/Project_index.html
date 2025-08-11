@@ -1,0 +1,94 @@
+<!DOCTYPE html> 
+<html>
+<head>
+  <title>Project Index</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&family=Miltonian&family=Rubik+Burned&family=Tilt+Prism&family=Tourney:ital,wdth,wght@0,125,300;1,125,300&display=swap" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href='../stylesheets/Project_index.css'>
+</head>
+<section class="hero is-info is-fullheight">
+
+<div class="hero-head">
+    <nav class="navbar">
+      <div class="container">
+          <a class="navbar-item" href="../index.html">
+            <p class="title" style="font-family: 'Tourney', sans-serif; font-weight: 300;">Home </p>
+          </a>
+          
+        <a class="navbar-item" onclick="ShowMainTab(event)">
+            <p id='projects' class="title" style="font-family: 'Tourney', sans-serif; font-weight: 300;">Projects</p>
+        </a>
+      </div>
+    </nav>
+  </div>
+
+
+
+
+
+
+  <div class="hero-body" id="hero">
+    <div class="container has-text-centered">
+      <p class="title">Projects</p>
+    </div>
+  </div>
+
+  <div class="hero-body tab-contents" id="Videos">
+    <div class="container">
+      <div class="title"> Videos</div>
+  </div>
+    
+  </div>
+
+  <div class="hero-body tab-contents" id="Models">
+
+  </div>
+    <div class="hero-body tab-contents" id="Creations">
+
+  </div>
+
+  <div class="hero-body tab-contents" id='WIP'>
+    <div class="container">
+      <video class="videocard" controls id="WIPVideoControl">
+          <source src="../videos/beach_sky_plain.mp4" type="video/mp4">
+      </video>
+
+    </div>
+    <aside class="menu">
+      <p class="title has-text-centered">Test</p>
+      <button class=" button is-success" onclick="ShowVideo(event, '../videos/monday_test_1.mp4')">Monday - Quadeca</button>
+    </aside>
+
+
+
+
+  </div>
+
+
+
+
+
+  <div class="hero-foot"  >
+    <nav class="tabs is-boxed is-fullwidth is-large">
+      <div class="container" id="footer">
+        <ul>
+          <li onclick="ShowTab(event, 'Videos')">
+            <a>Videos</a>
+          </li>
+          <li onclick="ShowTab(event, 'Models')">
+            <a>Models</a>
+          </li>
+          <li onclick="ShowTab(event, 'Creations')">
+            <a>Creations</a>
+          </li>
+          <li onclick="ShowTab(event, 'WIP')">
+            <a>WIP</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</section>
+<script src="../Scripts/Project_index.js"></script> 
