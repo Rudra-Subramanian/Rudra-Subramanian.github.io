@@ -10,8 +10,8 @@
   <script type="importmap">
 {
   "imports": {
-    "three": "https://cdn.jsdelivr.net/npm/three@<version>/build/three.module.js",
-    "three/addons/": "https://cdn.jsdelivr.net/npm/three@<version>/examples/jsm/"
+    "three": "https://cdn.jsdelivr.net/npm/three@v0.179.1/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.179.1/examples/jsm/"
   }
 }
 </script>
@@ -56,9 +56,9 @@
         <p class="title"> Models</p>
       </div>
     <aside class="menu">
-      <p class="title has-text-centered">Models</p>
-      <button class=" button is-primary" onclick="ShowModel(event, '../videos/beach_monday_v2_compressed.mp4')">Quadeca - Model</button>
-      <button class=" button is-primary" onclick="ShowModel(event, '../videos/beach_monday_v2_compressed.mp4')">Leverless Controller PCB</button>
+      <p class="title has-text-centered">Model Viewer</p>
+      <button class=" button is-primary" id="LoadQuadeca">Quadeca - Model</button>
+      <button class=" button is-primary" id="LoadPCB">Leverless Controller PCB</button>
     </aside>
 
   </div>
@@ -109,3 +109,4 @@
   </div>
 </section>
 <script src="../Scripts/Project_index.js"></script> 
+<script type="module" src="../Scripts/threejsproject_script.js"></script>
