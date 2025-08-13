@@ -6,7 +6,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&family=Miltonian&family=Rubik+Burned&family=Tilt+Prism&family=Tourney:ital,wdth,wght@0,125,300;1,125,300&display=swap" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href='../stylesheets/Project_index.css'>
+  <link href="../stylesheets/Project_index.css" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@<version>/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@<version>/examples/jsm/"
+  }
+}
+</script>
+<!--<script type="module" src="../Scripts/threejsproject_script.js"></script>-->
 </head>
 <section class="hero is-info is-fullheight">
 
@@ -43,6 +52,14 @@
   </div>
 
   <div class="hero-body tab-contents" id="Models">
+      <div class="container" id="ModelsContainer">
+        <p class="title"> Models</p>
+      </div>
+    <aside class="menu">
+      <p class="title has-text-centered">Models</p>
+      <button class=" button is-primary" onclick="ShowModel(event, '../videos/beach_monday_v2_compressed.mp4')">Quadeca - Model</button>
+      <button class=" button is-primary" onclick="ShowModel(event, '../videos/beach_monday_v2_compressed.mp4')">Leverless Controller PCB</button>
+    </aside>
 
   </div>
     <div class="hero-body tab-contents" id="Creations">
@@ -58,7 +75,7 @@
     </div>
     <aside class="menu">
       <p class="title has-text-centered">Test</p>
-      <button class=" button is-success" onclick="ShowVideo(event, '../videos/monday_test_1.mp4')">Monday - Quadeca</button>
+      <button class=" button is-success" onclick="ShowVideo(event, '../videos/beach_monday_v2_compressed.mp4')">Monday - Quadeca</button>
     </aside>
 
 

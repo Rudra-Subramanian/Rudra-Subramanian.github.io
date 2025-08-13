@@ -1,9 +1,13 @@
+
+
+
 const hero = document.getElementById("hero");
 const footer = document.getElementById("footer");
 const footerTabs = footer.getElementsByTagName('li');
 const color_schemes = [  "is-danger", "is-primary", "is-warning","is-success", "is-link", "is-info" ];
 const fullHero = document.getElementsByClassName("hero")[0];
 const WIPVideoControl = document.getElementById("WIPVideoControl");
+const ModelControl = document.getElementById("ModelsContainer");
 
 
 function ChangeHeroColorScheme(color_scheme){
@@ -58,4 +62,6 @@ function ShowVideo(event, VideoName){
     WIPVideoControl.src = VideoName
 }
 
+
 ShowMainTab();
+
