@@ -28,6 +28,7 @@ const renderer = new THREE.WebGLRenderer({ antialias: true , alpha: true });
 renderer.outputColorSpace = THREE.SRGBColorSpace;
 renderer.setSize(width, height);
 
+
 renderer.setPixelRatio(window.devicePixelRatio);
 //camera
 const camera = new THREE.PerspectiveCamera( 75, width / height, 0.1, 1000 );
@@ -88,8 +89,8 @@ loader.load(
 
 
 // Set the camera position
-camera.position.z = 5;
-camera.position.y = -5;
+camera.position.z = 7;
+camera.position.y = 3;
 camera.position.x = 0;
 camera.rotation.x = -0.5;
 
@@ -109,9 +110,10 @@ PCBScene.add(PCBambientLight);
 
 
 function LoadQuadecaModel(){
-    camera.position.z = 5;
-    camera.position.y = -5;
+    camera.position.z = 7;
+    camera.position.y = 3;
     camera.position.x = 0;
+    camera.rotation.x = -0.5;
     objToRender = "quadeca_model";
     currentScene = QuadecaMondayScene;
 }
@@ -129,10 +131,6 @@ function animate() {
     requestAnimationFrame(animate);
     if (quadeca_object && objToRender === "quadeca_model"){
     quadeca_object.rotation.y += 0.01;
-    camera.position.y = camera.position.y + 0.01
-    if (camera.position.y > 3 && objToRender === "quadeca_model") {
-        camera.position.y = -5
-    }
     }
     if (pcbobject && objToRender === "big_pcb.glb"){
         pcbobject.rotation.z += 0.005;
