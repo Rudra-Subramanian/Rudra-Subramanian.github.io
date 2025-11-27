@@ -2,7 +2,8 @@ import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
-const hero = document.getElementById("hero");
+const hero = document.getElementById("Models");
+console.log(hero);
 const ModelControl = document.getElementById("ModelsContainer");
 const width = hero.offsetWidth*0.5;
 const height = hero.offsetHeight*0.5;

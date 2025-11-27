@@ -17,7 +17,7 @@
 </script>
 <!--<script type="module" src="../Scripts/threejsproject_script.js"></script>-->
 </head>
-<section class="hero is-info is-fullheight">
+<section class="hero is-info is-success is-fullheight">
 
 <div class="hero-head">
     <nav class="navbar">
@@ -26,7 +26,7 @@
             <p class="title" style="font-family: 'Tourney', sans-serif; font-weight: 300;">Home </p>
           </a>
           
-        <a class="navbar-item" onclick="ShowMainTab(event)">
+        <a class="navbar-item" href="Project_index.html">
             <p id='projects' class="title" style="font-family: 'Tourney', sans-serif; font-weight: 300;">Projects</p>
         </a>
       </div>
@@ -34,39 +34,7 @@
   </div>
 
 
-
-
-
-
-  <div class="hero-body" id="hero">
-    <div class="container has-text-centered">
-      <p class="title">Projects</p>
-    </div>
-  </div>
-
-  <div class="hero-body tab-contents" id="Videos">
-    <div class="container">
-      <div class="title"> Videos</div>
-  </div>
-    
-  </div>
-
-  <div class="hero-body tab-contents" id="Models">
-      <div class="container" id="ModelsContainer">
-        <p class="title"> Models</p>
-      </div>
-    <aside class="menu">
-      <p class="title has-text-centered">Model Viewer</p>
-      <button class=" button is-primary" id="LoadQuadeca">Quadeca - Model</button>
-      <button class=" button is-primary" id="LoadPCB">Leverless Controller PCB</button>
-    </aside>
-
-  </div>
-    <div class="hero-body tab-contents" id="Creations">
-
-  </div>
-
-  <div class="hero-body tab-contents" id='WIP'>
+  <div class="hero-body tab-contents" id='WIP' style="display: flex;">
     <div class="container">
       <video class="videocard" controls id="WIPVideoControl">
           <source src="../videos/beach_sky_plain.mp4" type="video/mp4">
@@ -108,5 +76,6 @@
     </nav>
   </div>
 </section>
-<script src="../Scripts/Project_index.js"></script> 
-<script type="module" src="../Scripts/threejsproject_script.js"></script>
+<script src="../Scripts/Project_WIP.js"></script> 
+</body>
+</html>
