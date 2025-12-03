@@ -10,8 +10,8 @@ body {
 
 .carousel img{
   display: block;
-  /*width: 100%;*/
-  /*height: 100%;*/
+  max-height: 100dvh;
+  max-width: 100dvw;
 }
 .carousel-cell {
   width: 100vw;
@@ -38,4 +38,12 @@ body {
 
 .image-description {
   color: hsl(186, 28%, 93%);
+}
+
+@media only screen and (min-width: 600px){
+  .carousel img{
+  display: block;
+  max-width: 100dvw;
+  max-height: 100dvh;
+}
 }

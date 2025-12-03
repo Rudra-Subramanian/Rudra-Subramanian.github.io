@@ -7,7 +7,8 @@ body {
     margin-left: 10px ;
     margin-right: 10px;
     margin-top: 0;
-    background-color: #091014; /* Prevent scrolling */
+    
+    background-color: #091014;
     height: 100%;
     overflow: hidden;
 }
@@ -57,13 +58,19 @@ body {
 
 
 .Map { 
-    /*view-transition-name: Hero;*/
+    
     height : 100%;
     grid-area: 1 / 2 / 2 / 3;
     overflow: hidden;
     display: grid;
-    opacity: 30%;
+    
 
+
+ }
+
+ .Map > img {
+    view-transition-name: map-image;
+    opacity: 30%;
 
  }
 
@@ -72,8 +79,11 @@ body {
     view-transition-name: filter;
     height: 100%;
     grid-area: 1 / 2 / 2 / 3;
-    background: radial-gradient(#e6646400 0%, #091014 70%);
+    /*background: radial-gradient(#e6646400 0%, #e6646400 70%);*/
+    background: transparent;
     text-align: center;
+    animation: background-in 1s linear 3.5s 1 normal forwards;
+
 
 
 
@@ -94,7 +104,7 @@ body {
 
 @keyframes fade-out {
 	0% {
-		opacity: 1;
+		opacity: 0.3;
 		transform: scale(1);
 	}
 
@@ -104,6 +114,15 @@ body {
 	}
 }
 
+@keyframes background-in {
+	0% {
+        background: radial-gradient(#e6646400 0%, #e6646400 70%);
+	}
+
+	100% {
+		background: radial-gradient(#e6646400 0%, #091014 70%);
+	}
+}
 
 
 
@@ -113,7 +132,7 @@ body {
 /* making this a grid of 1by1 with all the options on top of it */
 .right_options { 
     view-transition-name: right;
-    height: 100%;
+    height: 100dvh;
     grid-area: 1 / 3 / 2 / 4;
     overflow:scroll;
     display: grid;
@@ -132,26 +151,28 @@ body {
 .right_playbooks{
     
     grid-area: 1 / 1 / 2 / 2; 
-    height: 100svh;
+    height: 100%;
     display: grid;
     grid-template-rows: 1fr, 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 7px;
     align-items: center;
     opacity: 0;
+    overflow: scroll;
 }
 
 
 
 .right_strats{
     grid-area: 1 / 1 / 2 / 2; 
-    height: 100svh;
+    height: 100%;
     display: grid;
     grid-template-rows: 1fr, 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 7px;
     align-items: center;
     opacity: 0;
+    overflow: scroll;
 
 }
 

@@ -8,52 +8,22 @@ console.log('Picker JS loaded');
 //console.log(center_orbit);
 //console.log(name_orbit);
 
-const all_maps = ["Back", "Viper walls", "Abyss",
-   "Ascent", 
-   "Bind", 
-   "Corrode",
-"Haven",
-"Lotus",
-"Sunset",
-"Breeze",
-"Fracture",
-"Icebox",
-"Pearl",
-"Split"];
+const all_maps = ["Back", "The Cult Split"];
 
 
-function fillCenter(map_name) {
-  var map_text = map_name.toElement.innerHTML
-  //console.log(map_text );
-  
-  pick_map_text.textContent = map_text;
-  if (map_text === "Back" || map_text === "Viper walls") {
-    pick_map_text.textContent = map_text;
-    pick_image.style.display = "none";
-    return;
-  };
 
-  pick_image.src = '../images/map_images/' + map_text.toLowerCase() + '.png';
-  pick_image.style.display = "block";
-  pick_image.width = 300;
-  pick_image.height = 300;
-
-};
 
 function goToMap(map_name) {
   let map_text = map_name.srcElement.innerHTML
+  map_text = map_text.toLowerCase();
   console.log(map_text)
-  if (map_text === "Back") {
+  if (map_text === "back") {
     console.log("Going back to home page");
-    window.location.href = '../index.html';
+    window.location.href = '../valorant_strat_radial_picker.html';
     return;
-  } else if (map_text === "Viper walls") {
-    window.location.href = './maps/viper lineups.html';
-    return;
-  
+  };
+  window.location.href = 'maps/' + map_text + '.html';
 };
-window.location.href = '../valorant_indexes/' + map_text + '_index.html';
-}
 
 
 
@@ -73,7 +43,7 @@ function fillNames() {
         
       oarcname.textContent = all_maps[i];
       name_orbit.appendChild(oarcname);
-      oarcname.addEventListener('mouseover', fillCenter);
+      //oarcname.addEventListener('mouseover', fillCenter);
       oarcname.addEventListener('click', goToMap);
     }
 }

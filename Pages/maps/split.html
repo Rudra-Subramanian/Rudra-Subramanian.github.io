@@ -2,10 +2,10 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="../stylesheets/orbit.css">
+  <link rel="stylesheet" href="../../stylesheets/orbit.css">
   <link rel="expect" href="#lead-content" blocking="render" />
   
-  <title> Valorant Map Picker</title>
+  <title> Split Strat Picker</title>
 </head>
 
 <body>
@@ -27,27 +27,27 @@
                 <o-arc text-anchor="start">Split</o-arc>
                 -->  
             </div>
-            <div class="orbit-0" id="center_orbit" >
+            <div class="orbit-0" id="center_orbit">
                 <!--add style="border: none;" to remove middle circle-->
                 <div class="satellite at-center grow-5x" style="z-index: 10;">
-                    <div class="capsule" id="pick_map" style="pointer-events: none;">
-                        <h2 id="pick_map_text">Pick a map</h2>
+                    <div class="capsule" id="pick_strat">
+                        <h2 id="pick_strat_text"></h2>
                     </div>
                 </div>
             </div>
             <div class="orbit-0" id="image_orbit">
                 <!--add style="border: none;" to remove middle circle-->
                 <div class="satellite at-center grow-2x" >
-                    <div class="capsule" style="pointer-events: none;">
-                        <img src="" alt="" id="pick_image" style="opacity: 30%;">
+                    <div class="capsule">
+                        <img src="../../images/map_images/split.png" width="300" height="300" alt="" id="pick_image">
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <script src="../Scripts/picker.js"></script>
-    <script src="../Scripts/orbit.js"></script>
+    <script src="../../Scripts/maps/split_picker.js"></script>
+    <script src="../../Scripts/orbit.js"></script>
 
 </body>
 </html>

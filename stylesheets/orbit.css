@@ -1,4 +1,10 @@
 
+
+
+
+
+
+
 /*
 * orbit
 * v.1.4.3
@@ -7,6 +13,37 @@
 **/
 @charset "UTF-8";
 
+
+/* Rudras CSS Modifications */
+
+/* Main body changes colours and others */
+
+body {
+  background: radial-gradient(circle at center, #34013E, #26012d 50%, #17001c 100%);
+}
+
+h2 {
+  color: #F0D3F7;
+  /*color: #84DCC6;*/
+}
+
+/* View transition related things */
+
+@view-transition {
+  navigation: auto;
+}
+
+::view-transition-group(root) {
+  animation-duration: 1s;
+}
+
+#pick_image {
+  view-transition-name: map-image;
+}
+
+
+/* -------------------------------------------*/
+/*Orbit CSS below */
 /* ../../../../../var/folders/dl/jfswzzq96_7bqvgnhjs47_8w0000gp/T/tmp-23140-k3CpJPexpehL/orbit/src/orbit.css */
 .gravity-spot * {
   box-sizing: border-box;
@@ -7037,4 +7074,52 @@ o-arc:hover {
   --o-fill: var(--o-cyan-lighter);
   --o-stroke: var(--o-fill);
   --o-stroke-width: 2;
+}
+
+.theme-pink o-arc {
+  --o-fill: #F0D3F7;
+  --o-stroke: #F0D3F7;
+  --o-stroke-width: 1;
+}
+.theme-pink o-arc:hover {
+  --o-fill: #B98EA7;
+  --o-stroke: #F0D3F7;
+  --o-stroke-width: 1;
+}
+
+.theme-pink .gravity-spot {
+  background: none;
+  border: none;
+}
+.theme-pink .orbit,
+.theme-pink [class*=orbit-] {
+  border: 1px solid transparent;
+}
+.theme-pink .satellite {
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+.theme-pink .vector {
+  border: none;
+  background: #6D696A;
+}
+.theme-pink .side {
+  border: none;
+  background: #6D696A;
+}
+.theme-pink o-progress {
+  --o-fill: #9CC4B2;
+  --o-stroke: var(--o-fill);
+  --o-stroke-width: 1;
+  --o-back-fill: transparent;
+  --o-back-stroke: none;
+  --o-back-stroke-width: 1;
+}
+.theme-pink o-progress:hover {
+  --o-fill: #D4F2D2;
+  --o-stroke: var(--o-fill);
+  --o-stroke-width: 2;
+  --o-back-fill: transparent;
+  --o-back-stroke: none;
+  --o-back-stroke-width: 2;
 }
