@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="../stylesheets/orbit.css">
+  
+  <title> Valorant Map Picker</title>
+</head>
+
+<body>
+    <div class="bigbang theme-cyan">
+        <div class="gravity-spot">
+            <div class="orbit-12 " id="name_orbit">
+                <!--
+                <o-arc fit-range text-anchor="start" >Abyss</o-arc>
+                <o-arc text-anchor="start" >Ascent</o-arc>
+                <o-arc text-anchor="start" >Bind</o-arc>
+                <o-arc text-anchor="start" >Corrode</o-arc>
+                <o-arc flip text-anchor="end" >Haven</o-arc>
+                <o-arc flip text-anchor="end" >Breeze</o-arc>
+                <o-arc flip text-anchor="end" >Fracture</o-arc>
+                <o-arc flip text-anchor="end" >Sunset</o-arc>
+                <o-arc flip text-anchor="end" >Icebox</o-arc>
+                <o-arc text-anchor="start" >Lotus</o-arc>
+                <o-arc text-anchor="start" >Pearl</o-arc>
+                <o-arc text-anchor="start">Split</o-arc>
+                -->  
+            </div>
+            <div class="orbit-0" id="center_orbit">
+                <!--add style="border: none;" to remove middle circle-->
+                <div class="satellite at-center grow-2x" style="z-index: 10;">
+                    <div class="capsule" id="pick_map">
+                        <h5 id="pick_map_text">Pick a map</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="orbit-0" id="image_orbit">
+                <!--add style="border: none;" to remove middle circle-->
+                <div class="satellite at-center grow-2x">
+                    <div class="capsule">
+                        <img src="" alt="" id="pick_image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../Scripts/picker.js"></script>
+    <script src="../Scripts/orbit.js"></script>
+
+</body>
+</html>
