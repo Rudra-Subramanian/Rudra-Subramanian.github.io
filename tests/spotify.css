@@ -1,0 +1,112 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css";
+
+
+:root {
+  --background-line-length: 15dvw;
+  --bulma-subtitle-color: white;
+  --bulma-text-strong: #D7F9F1;
+  --bulma-text: #D7F9F1;
+}
+
+.title {
+  --bulma-title-color: #D7F9F1;
+}
+
+
+body {
+
+  /* background stuff pattern from https://10015.io/tools/css-background-pattern-generator */
+  background: 
+      radial-gradient(farthest-side at -33.33% 50%,#0000 52%,hsl(147, 36%, 35%) 54% 57%,#0000 59%) 0 calc(var(--background-line-length)/2),
+      radial-gradient(farthest-side at 50% 133.33%,#0000 52%,#397956 54% 57%,#0000 59%) calc(var(--background-line-length)/2) 0,
+      radial-gradient(farthest-side at 133.33% 50%,#0000 52%,#397956 54% 57%,#0000 59%),
+      radial-gradient(farthest-side at 50% -33.33%,#0000 52%,#397956 54% 57%,#0000 59%),
+      #000000;
+  background-size: calc(var(--background-line-length)/8) var(--background-line-length),var(--background-line-length) calc(var(--background-line-length)/8);
+
+
+  scrollbar-width: none; /* Firefox */
+  animation: backgroundScroll 30s linear infinite;
+
+}
+
+@keyframes backgroundScroll {
+  from {
+    background-position: 0px calc(var(--background-line-length)/2), calc(var(--background-line-length)/2) 0px, 0 0, 0 0, 0 0;
+  }
+  to {
+    background-position: 0px calc(var(--background-line-length)*1.5), calc(var(--background-line-length)*1.5) 0px, 0 var(--background-line-length), var(--background-line-length) 0, 0 0;
+    /* background-position: 0 132px,132px 0, 0 440px, 440px 0, 0 0%; */
+  }
+}
+
+
+
+
+
+/* Hide scrollbar for all browsers */
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.sticky-hero__media {
+  position: sticky;
+  top: 0;
+  height: 100dvh;
+  background: no-repeat center center;
+  background-size: 100%;
+  transition: background-size 0.5s ease;
+  text-align: right;
+}
+
+.sticky-hero--media-is-fixed .sticky-hero__media {
+  background-size: 30%;
+  
+}
+.box {
+  --bulma-box-background-color: transparent;
+}
+
+.sticky-hero__content {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  --bulma-navbar-background-color: transparent;
+  --bulma-navbar-box-shadow-color: hsl(147, 36%, 35%);
+  --bulma-navbar-item-background-l: 0%;
+  --bulma-navbar-item-hover-background-l-delta: 0%;
+  --bulma-navbar-item-active-background-l-delta: 0%;
+  --bulma-navbar-burger-color: #D7F9F1;
+}
+
+.navbar-item:hover {
+  background-color: hsla(0, 0%, 0%, 0.639);
+  color: white;
+}
+
+.card {
+  --bulma-card-background-color: hsla(280, 17%, 42%, 0.9);
+
+  --bulma-card-shadow: 0 0.5em 1em -0.125em hsla(147, 36%, 35%,0.1),0 0px 0 1px hsla(147, 36%, 35%,0.02);
+}
+
+
+
+
+@media (max-width: 768px) {
+  :root {
+    --background-line-length: 30dvw;
+  }
+  .sticky-hero--media-is-fixed .sticky-hero__media {
+  background-size: 50%;
+  
+}
+  .sticky-hero__media {
+    text-align: center;
+  }
+
+}
