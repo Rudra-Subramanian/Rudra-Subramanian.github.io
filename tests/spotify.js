@@ -48,7 +48,7 @@ var OuterMostSection = document.createElement('section');
 OuterMostSection.className = 'sticky-hero js-sticky-hero';
 
 //create 2 inner sections
-
+/* ------------------Background Image and date---------------------- */
 //Background image section
 var backgroundPictureSection = document.createElement('div');
 
@@ -62,16 +62,73 @@ var bgDate = document.createElement('h1');
 bgDate.className = 'title is-4';
 bgDate.innerText =// -----------SET DATE HERE -----------;
 
+backgroundPictureSection.append(bgDate);
+
+OuterMostSection.append(backgroundPictureSection);
+
+/* ------------------- Content of sticky ------------------- */
+
 // Content section
 var contentSection = document.createElement('div');
 contentSection.className = 'sticky-hero__content';
+
+// Add content to content section
+var contentContainer = document.createElement('div');
+contentContainer.className = 'container is-widescreen';
+
+// create columns
+var contentColumns = document.createElement('div');
+contentColumns.className = 'columns';
+// create Song column
+var contentColumn1 = document.createElement('div');
+contentColumn1.className = 'column is-half has-text-centered';
+var songTitle = document.createElement('h2');
+songTitle.className = 'title is-3';
+songTitle.innerText = "Top Songs";
+
+contentColumn1.append(songTitle);
+
+//card container
+var cardoutside = document.createElement('div');
+cardoutside.className = 'card';
+var cardcontent = document.createElement('div');
+cardcontent.className = 'card-content';
+cardoutside.append(cardcontent);
+
+//for each song in data
+
+var mediaoutside = document.createElement('div');
+mediaoutside.className = 'media';
+var medialeft = document.createElement('div');
+medialeft.className = 'media-left';
+var figure = document.createElement('figure');
+//STOPPED AT FIGURE
+
+
+
+// append card to song column
+contentColumn1.append(cardoutside);
+
+
+
+//create artist column
+var contentColumn2 = document.createElement('div');
+contentColumn2.className = 'column is-half has-text-centered';
+
+contentColumns.append(contentColumn1);
+contentColumns.append(contentColumn2);
+
+contentContainer.append(contentColumns);
+
+contentSection.append(contentContainer);
+
+OuterMostSection.append(contentSection);
 
 
 
 
 // append final section to body
 document.body.append(OuterMostSection);
-
 
 
 
