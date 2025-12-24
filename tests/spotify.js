@@ -34,103 +34,244 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     $.getJSON("spotify_data.json", function(json) {
-    console.log(json);
+
+    CreateCards(json);
+
+    var StickyHero = function(element){
+        this.element = element;
+        this.content = this.element.getElementsByClassName('sticky-hero__content')[0];
+        //console.log(this.content);
+        initStickyHero(this);
+    };
+
+
+
+    function initStickyHero(hero) {
+        var observer = new IntersectionObserver(stickyCallback.bind(hero), {threshold: [0, 0.1, 1]});
+        observer.observe(hero.content);
+    };
+
+    function stickyCallback(entries) {
+        var bool = entries[0].intersectionRatio > 0;
+        //console.log(this.element);
+        Util.toggleClass(this.element, 'sticky-hero--media-is-fixed', bool);
+    };
+
+    var stickyHeroes = document.getElementsByClassName('js-sticky-hero');
+    if (stickyHeroes.length > 0) {
+        for (var i = 0; i < stickyHeroes.length; i++) {
+            new StickyHero(stickyHeroes[i]);
+        }
+    }
+
+
+});
     //access your JSON file through the variable "json"
 });
 
 
 // Make HTML BASED ON DATA
 
+function CreateCards(data){
 
+  console.log(data);
+  for (var i=0; i< data["weeks"].length; i++){
+
+    CreateSection(data["weeks"][i], data);
+  }
+  
+
+}
 
 //Create section
-var OuterMostSection = document.createElement('section');
-OuterMostSection.className = 'sticky-hero js-sticky-hero';
 
-//create 2 inner sections
-/* ------------------Background Image and date---------------------- */
-//Background image section
-var backgroundPictureSection = document.createElement('div');
+function CreateSection(weekdata, json){
+  console.log(weekdata);
+  var OuterMostSection = document.createElement('section');
+  OuterMostSection.classList.add('sticky-hero', 'js-sticky-hero');
 
-
-backgroundPictureSection.className = 'sticky-hero__media';
-backgroundPictureSection.ariaHidden = 'true';
-backgroundPictureSection.style.backgroundImage =// "url(-----set Image URL HERE -----)"
-
-//background date adding
-var bgDate = document.createElement('h1');
-bgDate.className = 'title is-4';
-bgDate.innerText =// -----------SET DATE HERE -----------;
-
-backgroundPictureSection.append(bgDate);
-
-OuterMostSection.append(backgroundPictureSection);
-
-/* ------------------- Content of sticky ------------------- */
-
-// Content section
-var contentSection = document.createElement('div');
-contentSection.className = 'sticky-hero__content';
-
-// Add content to content section
-var contentContainer = document.createElement('div');
-contentContainer.className = 'container is-widescreen';
-
-// create columns
-var contentColumns = document.createElement('div');
-contentColumns.className = 'columns';
-// create Song column
-var contentColumn1 = document.createElement('div');
-contentColumn1.className = 'column is-half has-text-centered';
-var songTitle = document.createElement('h2');
-songTitle.className = 'title is-3';
-songTitle.innerText = "Top Songs";
-
-contentColumn1.append(songTitle);
-
-//card container
-var cardoutside = document.createElement('div');
-cardoutside.className = 'card';
-var cardcontent = document.createElement('div');
-cardcontent.className = 'card-content';
-cardoutside.append(cardcontent);
-
-//for each song in data
-
-var mediaoutside = document.createElement('div');
-mediaoutside.className = 'media';
-var medialeft = document.createElement('div');
-medialeft.className = 'media-left';
-var figure = document.createElement('figure');
-//STOPPED AT FIGURE
+  //create 2 inner sections
+  /* ------------------Background Image and date---------------------- */
+  //Background image section
+  var backgroundPictureSection = document.createElement('div');
 
 
+  backgroundPictureSection.classList.add('sticky-hero__media');
+  backgroundPictureSection.ariaHidden = 'true';
+  
+  var main_artist = json[weekdata['songs'][0]['artist']]
+  for (var j=0; j< main_artist.length; j++){
+    if (main_artist[j]['Song'] == weekdata['songs'][0]['title']){
+      console.log(main_artist[j]['Image']);
+      backgroundPictureSection.style.backgroundImage = "url(" + main_artist[j]['Image'] + ")"
+    }
+  }
 
-// append card to song column
-contentColumn1.append(cardoutside);
+  //background date adding
+  var bgDate = document.createElement('h1');
+  bgDate.classList.add('title','is-4');
+  var date_string = weekdata["date_start"] + " - " + weekdata["date_end"];
+  console.log(date_string);
+  bgDate.innerText = date_string;
+
+  backgroundPictureSection.append(bgDate);
+
+  OuterMostSection.append(backgroundPictureSection);
+
+  /* ------------------- Content of sticky ------------------- */
+
+  // Content section
+  var contentSection = document.createElement('div');
+  contentSection.classList.add('sticky-hero__content');
+
+  // Add content to content section
+  var contentContainer = document.createElement('div');
+  contentContainer.classList.add('container',   'is-widescreen');
+
+  // create columns
+  var contentColumns = document.createElement('div');
+  contentColumns.classList.add('columns');
+  /* ----------------------------- create Song column ----------------------------------*/
+  var contentColumn1 = document.createElement('div');
+  contentColumn1.classList.add('column', 'is-half', 'has-text-centered');
+  var songTitle = document.createElement('h2');
+  songTitle.classList.add('title', 'is-3');
+  songTitle.innerText = "Top Songs";
+
+  contentColumn1.append(songTitle);
+
+  //card container
+  var cardoutside = document.createElement('div');
+  cardoutside.classList.add('card');
+  var cardcontent = document.createElement('div');
+  cardcontent.classList.add('card-content');
+
+  for (var k=0; k< weekdata['songs'].length; k++){
+    var mediaoutside = document.createElement('div');
+    mediaoutside.classList.add('media');
+
+    // media left
+    var medialeft = document.createElement('div');
+    medialeft.classList.add('media-left');
+    var figure = document.createElement('figure');
+    figure.classList.add('image', 'is-48x48');
+
+    var main_artist = json[weekdata['songs'][k]['artist']]
+    var img = document.createElement('img');
+    for (var j=0; j< main_artist.length; j++){
+    if (main_artist[j]['Song'] == weekdata['songs'][k]['title']){
+      console.log(main_artist[j]['Image']);
+      img.src = main_artist[j]['Image'];
+    }
+  }
+    img.alt = "Album Art";
+
+    figure.append(img);
+    medialeft.append(figure);
+    mediaoutside.append(medialeft);
+
+    //media right
+    var mediacontent= document.createElement('div');
+    mediacontent.classList.add('media-content');
+
+    var songname = document.createElement('p');
+    songname.classList.add('title', 'is-4');
+    songname.innerText = weekdata['songs'][k]['title'];
+
+    var artistname = document.createElement('p');
+    artistname.classList.add('subtitle', 'is-6');
+    artistname.innerText = weekdata['songs'][k]['artist'];
+
+    mediacontent.append(songname);
+    mediacontent.append(artistname);
+
+    mediaoutside.append(mediacontent);
+    cardcontent.append(mediaoutside);
 
 
 
-//create artist column
-var contentColumn2 = document.createElement('div');
-contentColumn2.className = 'column is-half has-text-centered';
+}
+  cardoutside.append(cardcontent);
+  contentColumn1.append(cardoutside);
 
-contentColumns.append(contentColumn1);
-contentColumns.append(contentColumn2);
+  // Create Artists Column -----------------------------
+  var contentColumn2 = document.createElement('div');
+  contentColumn2.classList.add('column', 'is-half', 'has-text-centered');
+  var artistTitle = document.createElement('h2');
+  artistTitle.classList.add('title', 'is-2');
+  artistTitle.innerText = "Top Artists";
 
-contentContainer.append(contentColumns);
+  contentColumn2.append(artistTitle);
 
-contentSection.append(contentContainer);
+  //card container
+  var cardoutside2 = document.createElement('div');
+  cardoutside2.classList.add('card');
+  var cardcontent2 = document.createElement('div');
+  cardcontent2.classList.add('card-content');
+  for (var k=0; k< weekdata['artists'].length; k++){
+    var mediaoutside2 = document.createElement('div');
+    mediaoutside2.classList.add('media');
 
-OuterMostSection.append(contentSection);
+    // media left
+    var medialeft2 = document.createElement('div');
+    medialeft2.classList.add('media-left');
+    var figure2 = document.createElement('figure');
+    figure2.classList.add('image', 'is-48x48');
+
+    var img2 = document.createElement('img');
+    var main_artist = json[weekdata['artists'][k]]
+    console.log(weekdata['artists'][k]);
+    img2.src = main_artist[0]['Image'];
+    img2.alt = "Artist Image";
+
+    figure2.append(img2);
+    medialeft2.append(figure2);
+    mediaoutside2.append(medialeft2);
+
+    //media right
+    var mediacontent2 = document.createElement('div');
+    mediacontent2.classList.add('media-content');
+
+    var artistname2 = document.createElement('p');
+    artistname2.classList.add('title', 'is-4');
+    artistname2.innerText = weekdata['artists'][k];
+
+    var artistnote = document.createElement('p');
+    artistnote.classList.add('subtitle', 'is-6');
+    //artistnote.innerText = -----------SET ARTIST NOTE HERE -----------
+
+    mediacontent2.append(artistname2);
+    //mediacontent2.append(artistnote);
+
+    mediaoutside2.append(mediacontent2);
+    cardcontent2.append(mediaoutside2);
+  }
+    cardoutside2.append(cardcontent2);
+
+
+
+  // append card to artist column
+  contentColumn2.append(cardoutside2);
+  // create Artist column END ----------------------------------
 
 
 
 
-// append final section to body
-document.body.append(OuterMostSection);
 
 
+  contentColumns.append(contentColumn1);
+  contentColumns.append(contentColumn2);
+
+  contentContainer.append(contentColumns);
+
+  contentSection.append(contentContainer);
+
+  OuterMostSection.append(contentSection);
+
+
+  document.body.append(OuterMostSection);
+
+}
 
 
   // Get all "navbar-burger" elements
@@ -220,35 +361,7 @@ document.body.append(OuterMostSection);
 //console.log(mydata["weeks"][0]);
 
 
-var StickyHero = function(element){
-        this.element = element;
-        this.content = this.element.getElementsByClassName('sticky-hero__content')[0];
-        console.log(this.content);
-        initStickyHero(this);
-    };
 
-
-
-    function initStickyHero(hero) {
-        var observer = new IntersectionObserver(stickyCallback.bind(hero), {threshold: [0, 0.1, 1]});
-        observer.observe(hero.content);
-    };
-
-    function stickyCallback(entries) {
-        var bool = entries[0].intersectionRatio > 0;
-        console.log(this.element);
-        Util.toggleClass(this.element, 'sticky-hero--media-is-fixed', bool);
-    };
-
-    var stickyHeroes = document.getElementsByClassName('js-sticky-hero');
-    if (stickyHeroes.length > 0) {
-        for (var i = 0; i < stickyHeroes.length; i++) {
-            new StickyHero(stickyHeroes[i]);
-        }
-    }
-
-
-});
 
 
 

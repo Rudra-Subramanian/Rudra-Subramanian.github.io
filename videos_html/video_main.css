@@ -1,0 +1,113 @@
+/* Custom styles for video gallery */
+
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css";
+
+html, body{
+    height: 100%;
+    margin: 0.2rem;
+    padding: 0.2rem;
+    overflow: hidden;
+    background: radial-gradient(circle at center, #00010d 0%, #020932 100%);
+}
+
+.main-video-holder {
+    height: 100vh;
+    overflow: scroll;
+}
+
+
+#backgroundVideo {
+  z-index: 1;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.video-grid {
+    gap: 1rem;
+    scroll-snap-type: y mandatory;
+}
+.video-wrapper, .video-wrapper video {
+
+        scroll-snap-align: center;
+        width: auto;
+        height: auto;
+}
+
+
+.box {
+  --bulma-box-background-color: #C46D5E;
+  --bulma-box-color: #020932;
+}
+
+.title {
+  --bulma-title-color: #020932;
+}
+
+.panel {
+  --bulma-panel-block-hover-background-color: #C46D5E;
+}
+
+* {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .main-video-holder {
+        height: 30vh;
+        width: auto;
+        grid-auto-flow: row;
+    }
+
+    .video-grid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 1rem;
+        scroll-snap-type: x mandatory;
+    }
+    .content, .video-container {
+        height: 100%;
+    }
+
+
+    .video-wrapper, .video-wrapper video {
+        scroll-snap-align: center;
+        width: 90vw;
+        height: auto;
+        flex-shrink: 0;
+    }
+
+    .video-wrapper video {
+        
+        display: block;
+        width: 100vw;
+        object-fit: cover;
+        aspect-ratio: unset;
+    }
+
+        .video-wrapper iframe {
+        
+        display: block;
+        width: 100vw;
+        object-fit: cover;
+        aspect-ratio: unset;
+    }
+
+
+
+
+
+}

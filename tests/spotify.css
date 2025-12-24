@@ -50,6 +50,7 @@ body::-webkit-scrollbar {
 }
 
 .sticky-hero__media {
+  opacity: 95%;
   position: sticky;
   top: 0;
   height: 100dvh;
@@ -101,6 +102,11 @@ body::-webkit-scrollbar {
   :root {
     --background-line-length: 30dvw;
   }
+  
+  .sticky-hero__media {
+    background-size: 70%;
+  }
+
   .sticky-hero--media-is-fixed .sticky-hero__media {
   background-size: 50%;
   

@@ -1,0 +1,22 @@
+
+[
+    {
+        "name": "Beach Monday V1 ",
+        "filename": "beach_monday_v2_compressed.mp4",
+        "description": "Initial test for quadeca monday beach version 1",
+        "src": "../videos/beach_monday_v2_compressed.mp4"
+    },
+
+    {
+        "name": "Monday Test 1",
+        "filename": "monday_test_1.mp4", 
+        "description": "Initial Test for quadeca monday, setting up environment and lighting.",
+        "src": "../videos/monday_test_1.mp4"
+    },
+    {
+        "name": "No questions asked Quadeca beach v1",
+        "filename": "Quadeca Output With Background", 
+        "description": "Initial Output of blender render. Background composited under and rendered separately. Still need to add clouds",
+        "src": "https://www.youtube.com/embed/STUno4ujNgo?si=pMln0kGKPQUM0vtD&amp;showinfo=0&controls=0&autohide=1"
+    }
+]

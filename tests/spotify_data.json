@@ -4,11 +4,26 @@
             "date_start": "11/17/2025",
             "date_end": "11/23/25",
             "songs": [
-                "Looking For Parking",
-                "Pixelated Kisses",
-                "Catch Me Outside 2",
-                "New David Bowie",
-                "FWU"
+                {
+                    "title": "Looking For Parking",
+                    "artist": "Saba"
+                },
+                {
+                    "title": "Pixelated Kisses",
+                    "artist": "Joji"
+                },
+                {
+                    "title": "Catch Me Outside 2",
+                    "artist": "Ski Mask the Slump God"
+                },
+                {
+                    "title": "New David Bowie",
+                    "artist": "Jim Legxacy"
+                },
+                {
+                    "title": "FWU",
+                    "artist": "Don Toliver"
+                }
             ],
             "artists": [
                 "Jim Legxacy",
@@ -22,11 +37,26 @@
             "date_start": "11/24/25",
             "date_end": "11/30/25",
             "songs": [
-                "New David Bowie",
-                "i just banged a snus in canada water",
-                "I Don't Care",
-                "Abandon Me",
-                "The Negro Problem"
+                {
+                    "title": "New David Bowie",
+                    "artist": "Jim Legxacy"
+                },
+                {
+                    "title": "i just banged a snus in canada water",
+                    "artist": "Jim Legxacy"
+                },
+                {
+                    "title": "I Don't Care",
+                    "artist": "Lucki"
+                },
+                {
+                    "title": "Abandon Me",
+                    "artist": "Kevin Abstract"
+                },
+                {
+                    "title": "The Negro Problem",
+                    "artist": "Chance the Rapper"
+                }
             ],
             "artists": [
                 "Jim Legxacy",
@@ -40,11 +70,26 @@
             "date_start": "12/1/25",
             "date_end": "12/7/25",
             "songs": [
-                "Free the Youth",
-                "I Don't Care",
-                "100Drum",
-                "father",
-                "Of Blue"
+                {
+                    "title": "Free the Youth",
+                    "artist": "Amaarae"
+                },
+                {
+                    "title": "I Don't Care",
+                    "artist": "Lucki"
+                },
+                {
+                    "title": "100Drum",
+                    "artist": "Amaarae"
+                },
+                {
+                    "title": "father",
+                    "artist": "Jim Legxacy"
+                },
+                {
+                    "title": "Of Blue",
+                    "artist": "JID"
+                }
             ],
             "artists": [
                 "Amaarae",
@@ -58,11 +103,26 @@
             "date_start": "12/8/25",
             "date_end": "12/14/25",
             "songs": [
-                "PROUD OF ME",
-                "Huncho's Prayer",
-                "100x",
-                "Pretty",
-                "P.O.V"
+                {
+                    "title": "PROUD OF ME",
+                    "artist": "BNYX"
+                },
+                {
+                    "title": "Huncho's Prayer",
+                    "artist": "Chris Patrick"
+                },
+                {
+                    "title": "100x",
+                    "artist": "Chris Patrick"
+                },
+                {
+                    "title": "Pretty",
+                    "artist": "Chance the Rapper"
+                },
+                {
+                    "title": "P.O.V",
+                    "artist": "Clipse"
+                }
             ],
             "artists": [
                 "Chris Patrick",
@@ -92,10 +152,6 @@
         }
     ],
     "Jim Legxacy": [
-        {
-            "Song": "Looking For Parking",
-            "Image": "https://dn710204.ca.archive.org/0/items/mbid-34ce402a-d398-4fcb-a879-19646f901005/mbid-34ce402a-d398-4fcb-a879-19646f901005-43427454554_thumb1200.jpg"
-        },
         {
             "Song": "New David Bowie",
             "Image": "https://ia803108.us.archive.org/4/items/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961-42688798715_thumb1200.jpg"
@@ -161,7 +217,7 @@
     ],
     "Chris Patrick": [
         {
-            "Song": "Huncho’s Prayer",
+            "Song": "Huncho's Prayer",
             "Image": "https://ia601902.us.archive.org/1/items/mbid-5be89b74-1d0b-4d27-bf08-0aef58a04845/mbid-5be89b74-1d0b-4d27-bf08-0aef58a04845-43800948325_thumb1200.jpg"
         },
         {
@@ -191,6 +247,12 @@
         {
             "Song": "IM YEAT",
             "Image": "https://dn710004.ca.archive.org/0/items/mbid-99c37a63-fab3-44f1-b5aa-5944a2207deb/mbid-99c37a63-fab3-44f1-b5aa-5944a2207deb-42649432742_thumb1200.jpg"
+        }
+    ],
+    "Quadeca": [
+        {
+            "Song": "Forgone",
+            "Image": "https://dn721901.ca.archive.org/0/items/mbid-1c25b84b-e51e-47cc-8c88-e01ff28f8740/mbid-1c25b84b-e51e-47cc-8c88-e01ff28f8740-42594074002_thumb1200.jpg"
         }
     ]
         

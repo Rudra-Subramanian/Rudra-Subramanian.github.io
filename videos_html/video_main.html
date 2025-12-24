@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Gallery</title>
+    <link rel="stylesheet" href="video_main.css">
+    
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+</head>
+<body>
+    <!--<video autoplay muted loop id="backgroundVideo" class="background_video is-hidden">
+    <source src="../videos/beach_monday_v2_compressed.mp4" type="video/mp4">
+    </video>-->
+
+    <div class="container-fluid">
+        <div class="columns is-fullheight">
+            <!-- Left Section - Video Names -->
+            <div class="column is-3" >
+                <nav class="panel" id="video-list">
+
+                </nav>
+            </div>
+
+            <!-- Middle Section - Video Display -->
+            <div class="column is-6 main-video-holder">
+                    <div class="content">
+                        <div id="video-container" class="video-container">
+                            <div class="video-grid">
+                                <!-- Videos will be displayed here -->
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <!-- Right Section - Video Description -->
+            <div class="column is-3">
+                <div class="box is-fullheight">
+                    <div class="content">
+                        <div id="video-description" class="video-description">
+                            <p class="has-text-grey">Select a video to view its description</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="video_main.js"></script>
+</body>
+</html>

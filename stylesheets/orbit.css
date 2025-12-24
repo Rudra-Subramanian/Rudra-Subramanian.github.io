@@ -19,6 +19,7 @@
 /* Main body changes colours and others */
 
 body {
+  /* gray - background: radial-gradient(circle at center,#151C28  0%, #0E131B 100%);*/
   background: radial-gradient(circle at center, #34013E, #26012d 50%, #17001c 100%);
 }
 
