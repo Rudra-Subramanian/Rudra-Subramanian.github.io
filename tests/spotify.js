@@ -31,9 +31,11 @@ Util.toggleClass = function(el, className, bool) {
 
 
 document.addEventListener('DOMContentLoaded', () => {
+  //var datapath = "spotify_data.json";
+  var datapath = 'spotify_data.json';
 
 
-    $.getJSON("spotify_data.json", function(json) {
+    $.getJSON(datapath, function(json) {
 
     CreateCards(json);
 
@@ -98,19 +100,13 @@ function CreateSection(weekdata, json){
 
   backgroundPictureSection.classList.add('sticky-hero__media');
   backgroundPictureSection.ariaHidden = 'true';
+  backgroundPictureSection.style.backgroundImage = "url(" + weekdata['songs'][0]['image'] + ")"
   
-  var main_artist = json[weekdata['songs'][0]['artist']]
-  for (var j=0; j< main_artist.length; j++){
-    if (main_artist[j]['Song'] == weekdata['songs'][0]['title']){
-      console.log(main_artist[j]['Image']);
-      backgroundPictureSection.style.backgroundImage = "url(" + main_artist[j]['Image'] + ")"
-    }
-  }
 
   //background date adding
   var bgDate = document.createElement('h1');
   bgDate.classList.add('title','is-4');
-  var date_string = weekdata["date_start"] + " - " + weekdata["date_end"];
+  var date_string = weekdata["weekRange"];
   console.log(date_string);
   bgDate.innerText = date_string;
 
@@ -135,7 +131,7 @@ function CreateSection(weekdata, json){
   var contentColumn1 = document.createElement('div');
   contentColumn1.classList.add('column', 'is-half', 'has-text-centered');
   var songTitle = document.createElement('h2');
-  songTitle.classList.add('title', 'is-3');
+  songTitle.classList.add('title', 'is-2');
   songTitle.innerText = "Top Songs";
 
   contentColumn1.append(songTitle);
@@ -156,14 +152,8 @@ function CreateSection(weekdata, json){
     var figure = document.createElement('figure');
     figure.classList.add('image', 'is-48x48');
 
-    var main_artist = json[weekdata['songs'][k]['artist']]
     var img = document.createElement('img');
-    for (var j=0; j< main_artist.length; j++){
-    if (main_artist[j]['Song'] == weekdata['songs'][k]['title']){
-      console.log(main_artist[j]['Image']);
-      img.src = main_artist[j]['Image'];
-    }
-  }
+    img.src = weekdata['songs'][k]['image'];
     img.alt = "Album Art";
 
     figure.append(img);
@@ -176,11 +166,11 @@ function CreateSection(weekdata, json){
 
     var songname = document.createElement('p');
     songname.classList.add('title', 'is-4');
-    songname.innerText = weekdata['songs'][k]['title'];
+    songname.innerText = weekdata['songs'][k]['name'];
 
     var artistname = document.createElement('p');
     artistname.classList.add('subtitle', 'is-6');
-    artistname.innerText = weekdata['songs'][k]['artist'];
+    artistname.innerText = weekdata['songs'][k]['notes'];
 
     mediacontent.append(songname);
     mediacontent.append(artistname);
@@ -219,9 +209,9 @@ function CreateSection(weekdata, json){
     figure2.classList.add('image', 'is-48x48');
 
     var img2 = document.createElement('img');
-    var main_artist = json[weekdata['artists'][k]]
-    console.log(weekdata['artists'][k]);
-    img2.src = main_artist[0]['Image'];
+    var main_artist = json[weekdata['artists'][k]['name']];
+    console.log(main_artist);
+    img2.src = weekdata['artists'][k]['image'];
     img2.alt = "Artist Image";
 
     figure2.append(img2);
@@ -234,14 +224,14 @@ function CreateSection(weekdata, json){
 
     var artistname2 = document.createElement('p');
     artistname2.classList.add('title', 'is-4');
-    artistname2.innerText = weekdata['artists'][k];
+    artistname2.innerText = weekdata['artists'][k]['name'];
 
     var artistnote = document.createElement('p');
     artistnote.classList.add('subtitle', 'is-6');
-    //artistnote.innerText = -----------SET ARTIST NOTE HERE -----------
+    artistnote.innerText = weekdata['artists'][k]['notes'];
 
     mediacontent2.append(artistname2);
-    //mediacontent2.append(artistnote);
+    mediacontent2.append(artistnote);
 
     mediaoutside2.append(mediacontent2);
     cardcontent2.append(mediaoutside2);

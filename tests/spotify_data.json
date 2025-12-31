@@ -1,259 +1,293 @@
 {
     "weeks":[
-        {
-            "date_start": "11/17/2025",
-            "date_end": "11/23/25",
-            "songs": [
-                {
-                    "title": "Looking For Parking",
-                    "artist": "Saba"
-                },
-                {
-                    "title": "Pixelated Kisses",
-                    "artist": "Joji"
-                },
-                {
-                    "title": "Catch Me Outside 2",
-                    "artist": "Ski Mask the Slump God"
-                },
-                {
-                    "title": "New David Bowie",
-                    "artist": "Jim Legxacy"
-                },
-                {
-                    "title": "FWU",
-                    "artist": "Don Toliver"
-                }
-            ],
-            "artists": [
-                "Jim Legxacy",
-                "Saba",
-                "Chance the Rapper",
-                "Clipse",
-                "Yeat"
-            ]
-        },
-        {
-            "date_start": "11/24/25",
-            "date_end": "11/30/25",
-            "songs": [
-                {
-                    "title": "New David Bowie",
-                    "artist": "Jim Legxacy"
-                },
-                {
-                    "title": "i just banged a snus in canada water",
-                    "artist": "Jim Legxacy"
-                },
-                {
-                    "title": "I Don't Care",
-                    "artist": "Lucki"
-                },
-                {
-                    "title": "Abandon Me",
-                    "artist": "Kevin Abstract"
-                },
-                {
-                    "title": "The Negro Problem",
-                    "artist": "Chance the Rapper"
-                }
-            ],
-            "artists": [
-                "Jim Legxacy",
-                "JID",
-                "Chance the Rapper",
-                "Quadeca",
-                "Clipse"
-            ]
-        },
-        {
-            "date_start": "12/1/25",
-            "date_end": "12/7/25",
-            "songs": [
-                {
-                    "title": "Free the Youth",
-                    "artist": "Amaarae"
-                },
-                {
-                    "title": "I Don't Care",
-                    "artist": "Lucki"
-                },
-                {
-                    "title": "100Drum",
-                    "artist": "Amaarae"
-                },
-                {
-                    "title": "father",
-                    "artist": "Jim Legxacy"
-                },
-                {
-                    "title": "Of Blue",
-                    "artist": "JID"
-                }
-            ],
-            "artists": [
-                "Amaarae",
-                "Jim Legxacy",
-                "JID",
-                "Chance the Rapper",
-                "Yeat"
-            ]
-        },
-        {
-            "date_start": "12/8/25",
-            "date_end": "12/14/25",
-            "songs": [
-                {
-                    "title": "PROUD OF ME",
-                    "artist": "BNYX"
-                },
-                {
-                    "title": "Huncho's Prayer",
-                    "artist": "Chris Patrick"
-                },
-                {
-                    "title": "100x",
-                    "artist": "Chris Patrick"
-                },
-                {
-                    "title": "Pretty",
-                    "artist": "Chance the Rapper"
-                },
-                {
-                    "title": "P.O.V",
-                    "artist": "Clipse"
-                }
-            ],
-            "artists": [
-                "Chris Patrick",
-                "BNYX",
-                "Sol Chyld",
-                "Rico Nasty",
-                "Chance the Rapper"
-            ]
-        }
-    ],
-    "Saba": [
-        {
-            "Song": "Looking For Parking",
-            "Image": "https://dn710204.ca.archive.org/0/items/mbid-34ce402a-d398-4fcb-a879-19646f901005/mbid-34ce402a-d398-4fcb-a879-19646f901005-43427454554_thumb1200.jpg"
-        }
-    ],
-    "Joji": [
-        {
-            "Song": "Pixelated Kisses",
-            "Image": "https://dn710207.ca.archive.org/0/items/mbid-78ff63f1-a4e9-4987-b4f8-817e100a2b27/mbid-78ff63f1-a4e9-4987-b4f8-817e100a2b27-43294275563_thumb1200.jpg"
-        }
-    ],
-    "Ski Mask the Slump God": [
-        {
-            "Song": "Catch Me Outside 2",
-            "Image": "https://dn721504.ca.archive.org/0/items/mbid-f654d169-6b70-45c4-80ae-a3231fba3ee3/mbid-f654d169-6b70-45c4-80ae-a3231fba3ee3-42419127881_thumb1200.jpg"
-        }
-    ],
-    "Jim Legxacy": [
-        {
-            "Song": "New David Bowie",
-            "Image": "https://ia803108.us.archive.org/4/items/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961-42688798715_thumb1200.jpg"
-        },
-        {
-            "Song": "i just banged a snus in canada water",
-            "Image": "https://ia803108.us.archive.org/4/items/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961-42688798715_thumb1200.jpg"
-        },
-        {
-            "Song": "father",
-            "Image": "https://ia803108.us.archive.org/4/items/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961-42688798715_thumb1200.jpg"
-        }
-    ],
-    "Don Toliver": [
-        {
-            "Song": "FWU",
-            "Image": "https://ia902900.us.archive.org/17/items/mbid-eab2d8d8-339c-44a7-a84c-6e3ea63dd12f/mbid-eab2d8d8-339c-44a7-a84c-6e3ea63dd12f-42447289835_thumb1200.jpg"
-        }
-    ],
-    "Lucki": [
-        {
-            "Song": "I Don't Care",
-            "Image": "https://dn721601.ca.archive.org/0/items/mbid-628e1448-91a4-45b3-8334-855043ad5c45/mbid-628e1448-91a4-45b3-8334-855043ad5c45-43062977232_thumb1200.jpg"
-        }
-    ],
-    "Kevin Abstract": [
-        {
-            "Song": "Abandon Me",
-            "Image": "https://dn710106.ca.archive.org/0/items/mbid-c1548400-28b1-45ec-b3a5-aab3fbfb3ecf/mbid-c1548400-28b1-45ec-b3a5-aab3fbfb3ecf-43788309622_thumb1200.jpg"
-        }
-    ],
-    "Chance the Rapper": [
-        {
-            "Song": "The Negro Problem",
-            "Image": "https://dn721504.ca.archive.org/0/items/mbid-ae46812c-809b-4a22-aa02-1bb969e91b1f/mbid-ae46812c-809b-4a22-aa02-1bb969e91b1f-42764487853_thumb1200.jpg"
-        },
-        {
-            "Song": "Pretty",
-            "Image": "https://dn721504.ca.archive.org/0/items/mbid-ae46812c-809b-4a22-aa02-1bb969e91b1f/mbid-ae46812c-809b-4a22-aa02-1bb969e91b1f-42764487853_thumb1200.jpg"
-        }
-    ],
-    "Amaarae": [
-        {
-            "Song": "Free the Youth",
-            "Image": "https://dn720707.ca.archive.org/0/items/mbid-a1fd39d6-58d4-4dda-8400-147c212424cf/mbid-a1fd39d6-58d4-4dda-8400-147c212424cf-42859442108_thumb1200.jpg"
-        },
-        {
-            "Song": "100Drum",
-            "Image": "https://dn720707.ca.archive.org/0/items/mbid-a1fd39d6-58d4-4dda-8400-147c212424cf/mbid-a1fd39d6-58d4-4dda-8400-147c212424cf-42859442108_thumb1200.jpg"
-        }
-    ],
-    "JID": [
-        {
-            "Song": "Of Blue",
-            "Image": "https://dn710000.ca.archive.org/0/items/mbid-608f84cc-d047-4686-a997-b67d6305ab49/mbid-608f84cc-d047-4686-a997-b67d6305ab49-42781856813_thumb1200.jpg"
-        }
-    ],
-    "BNYX": [
-        {
-            "Song": "PROUD OF ME",
-            "Image": "https://ia601003.us.archive.org/20/items/mbid-116ef33f-e5f1-48ed-8916-7699e2478b65/mbid-116ef33f-e5f1-48ed-8916-7699e2478b65-43393173763_thumb1200.jpg"
-        }
-    ],
-    "Chris Patrick": [
-        {
-            "Song": "Huncho's Prayer",
-            "Image": "https://ia601902.us.archive.org/1/items/mbid-5be89b74-1d0b-4d27-bf08-0aef58a04845/mbid-5be89b74-1d0b-4d27-bf08-0aef58a04845-43800948325_thumb1200.jpg"
-        },
-        {
-            "Song": "100x",
-            "Image": "https://ia601902.us.archive.org/1/items/mbid-5be89b74-1d0b-4d27-bf08-0aef58a04845/mbid-5be89b74-1d0b-4d27-bf08-0aef58a04845-43800948325_thumb1200.jpg"
-        }
-    ],
-    "Sol Chyld": [
-        {
-            "Song": "Cross Roads",
-            "Image": "https://dn721603.ca.archive.org/0/items/mbid-292ca656-26ea-4465-aad4-7c92a6f1e1a3/mbid-292ca656-26ea-4465-aad4-7c92a6f1e1a3-43075439674_thumb1200.jpg"
-        }
-    ],
-    "Rico Nasty": [
-        {
-            "Song": "EAT ME!",
-            "Image": "https://ia801703.us.archive.org/16/items/mbid-e68c088f-0c4a-42c0-9698-95340214a52c/mbid-e68c088f-0c4a-42c0-9698-95340214a52c-43808433008_thumb1200.jpg"
-        }
-    ],
-    "Clipse": [
-        {
-            "Song": "P.O.V",
-            "Image": "https://dn720705.ca.archive.org/0/items/mbid-22693477-c644-4212-848e-8c6b8391beb5/mbid-22693477-c644-4212-848e-8c6b8391beb5-42468744212_thumb1200.jpg"
-        }
-    ],
-    "Yeat": [
-        {
-            "Song": "IM YEAT",
-            "Image": "https://dn710004.ca.archive.org/0/items/mbid-99c37a63-fab3-44f1-b5aa-5944a2207deb/mbid-99c37a63-fab3-44f1-b5aa-5944a2207deb-42649432742_thumb1200.jpg"
-        }
-    ],
-    "Quadeca": [
-        {
-            "Song": "Forgone",
-            "Image": "https://dn721901.ca.archive.org/0/items/mbid-1c25b84b-e51e-47cc-8c88-e01ff28f8740/mbid-1c25b84b-e51e-47cc-8c88-e01ff28f8740-42594074002_thumb1200.jpg"
-        }
-    ]
         
+
+
+            {
+        "weekRange": "12/15/25 - 12/21/25",
+        "songs": [
+            {
+            "name": "PROUD OF ME",
+            "image": "https://ia601003.us.archive.org/20/items/mbid-116ef33f-e5f1-48ed-8916-7699e2478b65/mbid-116ef33f-e5f1-48ed-8916-7699e2478b65-43393173763_thumb1200.jpg",
+            "notes": "BNYX and Earl"
+            },
+            {
+            "name": "100x",
+            "image": "https://ia601902.us.archive.org/1/items/mbid-5be89b74-1d0b-4d27-bf08-0aef58a04845/mbid-5be89b74-1d0b-4d27-bf08-0aef58a04845-43800948325_thumb1200.jpg",
+            "notes": "Chris Patrick "
+            },
+            {
+            "name": "Doremi",
+            "image": "https://ia601902.us.archive.org/1/items/mbid-5be89b74-1d0b-4d27-bf08-0aef58a04845/mbid-5be89b74-1d0b-4d27-bf08-0aef58a04845-43800948325_thumb1200.jpg",
+            "notes": "Chris Patrick"
+            },
+            {
+            "name": "Diamonds",
+            "image": "https://dn710308.ca.archive.org/0/items/mbid-1bf6e952-b8b3-41b1-902d-37d0b60fac16/mbid-1bf6e952-b8b3-41b1-902d-37d0b60fac16-43868008794_thumb1200.jpg",
+            "notes": "Kenny Mason"
+            },
+            {
+            "name": "Patience",
+            "image": "https://ia601902.us.archive.org/1/items/mbid-5be89b74-1d0b-4d27-bf08-0aef58a04845/mbid-5be89b74-1d0b-4d27-bf08-0aef58a04845-43800948325_thumb1200.jpg",
+            "notes": "Chris Patrick"
+            }
+        ],
+        "artists": [
+            {
+            "name": "Chris Patrick",
+            "image": "https://ia601902.us.archive.org/1/items/mbid-5be89b74-1d0b-4d27-bf08-0aef58a04845/mbid-5be89b74-1d0b-4d27-bf08-0aef58a04845-43800948325_thumb1200.jpg",
+            "notes": ""
+            },
+            {
+            "name": "Jim Legxacy",
+            "image": "https://ia803108.us.archive.org/4/items/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961-42688798715_thumb1200.jpg",
+            "notes": "Generational album"
+            },
+            {
+            "name": "Hit-Boy",
+            "image": "https://dn720708.ca.archive.org/0/items/mbid-2e3d0392-32bb-4f39-ab6d-34a561cb6ddd/mbid-2e3d0392-32bb-4f39-ab6d-34a561cb6ddd-43375930219_thumb1200.jpg",
+            "notes": ""
+            },
+            {
+            "name": "BNYX",
+            "image": "https://ia601003.us.archive.org/20/items/mbid-116ef33f-e5f1-48ed-8916-7699e2478b65/mbid-116ef33f-e5f1-48ed-8916-7699e2478b65-43393173763_thumb1200.jpg",
+            "notes": "A couple veeery good songs"
+            },
+            {
+            "name": "Rico Nasty",
+            "image": "https://ia801703.us.archive.org/16/items/mbid-e68c088f-0c4a-42c0-9698-95340214a52c/mbid-e68c088f-0c4a-42c0-9698-95340214a52c-43808433008_thumb1200.jpg",
+            "notes": ""
+            }
+        ]
+        },
+        {
+            "weekRange": "12/8/25 - 12/14/25",
+            "songs": [
+                {
+                    "name": "PROUD OF ME",
+                    "image": "https://ia601003.us.archive.org/20/items/mbid-116ef33f-e5f1-48ed-8916-7699e2478b65/mbid-116ef33f-e5f1-48ed-8916-7699e2478b65-43393173763_thumb1200.jpg",
+                    "notes": "BNYX"
+                },
+                {
+                    "name": "Huncho's Prayer",
+                    "image": "https://ia601902.us.archive.org/1/items/mbid-5be89b74-1d0b-4d27-bf08-0aef58a04845/mbid-5be89b74-1d0b-4d27-bf08-0aef58a04845-43800948325_thumb1200.jpg",
+                    "notes": "Chris Patrick"
+                },
+                {
+                    "name": "100x",
+                    "image": "https://ia601902.us.archive.org/1/items/mbid-5be89b74-1d0b-4d27-bf08-0aef58a04845/mbid-5be89b74-1d0b-4d27-bf08-0aef58a04845-43800948325_thumb1200.jpg",
+                    "notes": "Chris Patrick"
+                },
+                {
+                    "name": "Pretty",
+                    "image": "https://dn721504.ca.archive.org/0/items/mbid-ae46812c-809b-4a22-aa02-1bb969e91b1f/mbid-ae46812c-809b-4a22-aa02-1bb969e91b1f-42764487853_thumb1200.jpg",
+                    "notes": "Chance the Rapper"
+                },
+                {
+                    "name": "P.O.V",
+                    "image": "https://dn720705.ca.archive.org/0/items/mbid-22693477-c644-4212-848e-8c6b8391beb5/mbid-22693477-c644-4212-848e-8c6b8391beb5-42468744212_thumb1200.jpg",
+                    "notes": "Clipse"
+                }
+            ],
+            "artists": [
+                {
+                    "name": "Chris Patrick",
+                    "image": "https://ia601902.us.archive.org/1/items/mbid-5be89b74-1d0b-4d27-bf08-0aef58a04845/mbid-5be89b74-1d0b-4d27-bf08-0aef58a04845-43800948325_thumb1200.jpg",
+                    "notes": ""
+                },
+                {
+                    "name": "BNYX",
+                    "image": "https://ia601003.us.archive.org/20/items/mbid-116ef33f-e5f1-48ed-8916-7699e2478b65/mbid-116ef33f-e5f1-48ed-8916-7699e2478b65-43393173763_thumb1200.jpg",
+                    "notes": ""
+                },
+                {
+                    "name": "Sol Chyld",
+                    "image": "https://dn721603.ca.archive.org/0/items/mbid-292ca656-26ea-4465-aad4-7c92a6f1e1a3/mbid-292ca656-26ea-4465-aad4-7c92a6f1e1a3-43075439674_thumb1200.jpg",
+                    "notes": ""
+                },
+                {
+                    "name": "Rico Nasty",
+                    "image": "https://ia801703.us.archive.org/16/items/mbid-e68c088f-0c4a-42c0-9698-95340214a52c/mbid-e68c088f-0c4a-42c0-9698-95340214a52c-43808433008_thumb1200.jpg",
+                    "notes": ""
+                },
+                {
+                    "name": "Chance the Rapper",
+                    "image": "https://dn721504.ca.archive.org/0/items/mbid-ae46812c-809b-4a22-aa02-1bb969e91b1f/mbid-ae46812c-809b-4a22-aa02-1bb969e91b1f-42764487853_thumb1200.jpg",
+                    "notes": ""
+                }
+            ]
+        },
+                {
+            "weekRange": "12/1/25 - 12/7/25",
+            "songs": [
+                {
+                    "name": "Free the Youth",
+                    "image": "https://dn720707.ca.archive.org/0/items/mbid-a1fd39d6-58d4-4dda-8400-147c212424cf/mbid-a1fd39d6-58d4-4dda-8400-147c212424cf-42859442108_thumb1200.jpg",
+                    "notes": "Amaarae"
+                },
+                {
+                    "name": "I Don't Care",
+                    "image": "https://dn721601.ca.archive.org/0/items/mbid-628e1448-91a4-45b3-8334-855043ad5c45/mbid-628e1448-91a4-45b3-8334-855043ad5c45-43062977232_thumb1200.jpg",
+                    "notes": "Lucki"
+                },
+                {
+                    "name": "100Drum",
+                    "image": "https://dn720707.ca.archive.org/0/items/mbid-a1fd39d6-58d4-4dda-8400-147c212424cf/mbid-a1fd39d6-58d4-4dda-8400-147c212424cf-42859442108_thumb1200.jpg",
+                    "notes": "Amaarae"
+                },
+                {
+                    "name": "father",
+                    "image": "https://ia803108.us.archive.org/4/items/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961-42688798715_thumb1200.jpg",
+                    "notes": "Jim Legxacy"
+                },
+                {
+                    "name": "Of Blue",
+                    "image": "https://dn710000.ca.archive.org/0/items/mbid-608f84cc-d047-4686-a997-b67d6305ab49/mbid-608f84cc-d047-4686-a997-b67d6305ab49-42781856813_thumb1200.jpg",
+                    "notes": "JID"
+                }
+            ],
+            "artists": [
+                {
+                    "name": "Amaarae",
+                    "image": "https://dn720707.ca.archive.org/0/items/mbid-a1fd39d6-58d4-4dda-8400-147c212424cf/mbid-a1fd39d6-58d4-4dda-8400-147c212424cf-42859442108_thumb1200.jpg",
+                    "notes": ""
+                },
+                {
+                    "name": "Jim Legxacy",
+                    "image": "https://ia803108.us.archive.org/4/items/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961-42688798715_thumb1200.jpg",
+                    "notes": ""
+                },
+                {
+                    "name": "JID",
+                    "image": "https://dn710000.ca.archive.org/0/items/mbid-608f84cc-d047-4686-a997-b67d6305ab49/mbid-608f84cc-d047-4686-a997-b67d6305ab49-42781856813_thumb1200.jpg",
+                    "notes": ""
+                },
+                {
+                    "name": "Chance the Rapper",
+                    "image": "https://dn721504.ca.archive.org/0/items/mbid-ae46812c-809b-4a22-aa02-1bb969e91b1f/mbid-ae46812c-809b-4a22-aa02-1bb969e91b1f-42764487853_thumb1200.jpg",
+                    "notes": ""
+                },
+                {
+                    "name": "Yeat",
+                    "image": "https://dn710004.ca.archive.org/0/items/mbid-99c37a63-fab3-44f1-b5aa-5944a2207deb/mbid-99c37a63-fab3-44f1-b5aa-5944a2207deb-42649432742_thumb1200.jpg",
+                    "notes": ""
+                }
+            ]
+        },
+                {
+            "weekRange": "11/24/25 - 11/30/25",
+            "songs": [
+                {
+                    "name": "New David Bowie",
+                    "image": "https://ia803108.us.archive.org/4/items/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961-42688798715_thumb1200.jpg",
+                    "notes": "Jim Legxacy"
+                },
+                {
+                    "name": "i just banged a snus in canada water",
+                    "image": "https://ia803108.us.archive.org/4/items/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961-42688798715_thumb1200.jpg",
+                    "notes": "Jim Legxacy"
+                },
+                {
+                    "name": "I Don't Care",
+                    "image": "https://dn721601.ca.archive.org/0/items/mbid-628e1448-91a4-45b3-8334-855043ad5c45/mbid-628e1448-91a4-45b3-8334-855043ad5c45-43062977232_thumb1200.jpg",
+                    "notes": "Lucki"
+                },
+                {
+                    "name": "Abandon Me",
+                    "image": "https://dn710106.ca.archive.org/0/items/mbid-c1548400-28b1-45ec-b3a5-aab3fbfb3ecf/mbid-c1548400-28b1-45ec-b3a5-aab3fbfb3ecf-43788309622_thumb1200.jpg",
+                    "notes": "Kevin Abstract"
+                },
+                {
+                    "name": "The Negro Problem",
+                    "image": "https://dn721504.ca.archive.org/0/items/mbid-ae46812c-809b-4a22-aa02-1bb969e91b1f/mbid-ae46812c-809b-4a22-aa02-1bb969e91b1f-42764487853_thumb1200.jpg",
+                    "notes": "Chance the Rapper"
+                }
+            ],
+            "artists": [
+                {
+                    "name": "Jim Legxacy",
+                    "image": "https://ia803108.us.archive.org/4/items/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961-42688798715_thumb1200.jpg",
+                    "notes": ""
+                },
+                {
+                    "name": "JID",
+                    "image": "https://dn710000.ca.archive.org/0/items/mbid-608f84cc-d047-4686-a997-b67d6305ab49/mbid-608f84cc-d047-4686-a997-b67d6305ab49-42781856813_thumb1200.jpg",
+                    "notes": ""
+                },
+                {
+                    "name": "Chance the Rapper",
+                    "image": "https://dn721504.ca.archive.org/0/items/mbid-ae46812c-809b-4a22-aa02-1bb969e91b1f/mbid-ae46812c-809b-4a22-aa02-1bb969e91b1f-42764487853_thumb1200.jpg",
+                    "notes": ""
+                },
+                {
+                    "name": "Quadeca",
+                    "image": "https://dn721901.ca.archive.org/0/items/mbid-1c25b84b-e51e-47cc-8c88-e01ff28f8740/mbid-1c25b84b-e51e-47cc-8c88-e01ff28f8740-42594074002_thumb1200.jpg",
+                    "notes": ""
+                },
+                {
+                    "name": "Clipse",
+                    "image": "https://dn720705.ca.archive.org/0/items/mbid-22693477-c644-4212-848e-8c6b8391beb5/mbid-22693477-c644-4212-848e-8c6b8391beb5-42468744212_thumb1200.jpg",
+                    "notes": ""
+                }
+            ]
+        },
+                {
+            "weekRange": "11/17/2025 - 11/23/25",
+            "songs": [
+                {
+                    "name": "Looking For Parking",
+                    "image": "https://dn710204.ca.archive.org/0/items/mbid-34ce402a-d398-4fcb-a879-19646f901005/mbid-34ce402a-d398-4fcb-a879-19646f901005-43427454554_thumb1200.jpg",
+                    "notes": "Saba"
+                },
+                {
+                    "name": "Pixelated Kisses",
+                    "image": "https://dn710207.ca.archive.org/0/items/mbid-78ff63f1-a4e9-4987-b4f8-817e100a2b27/mbid-78ff63f1-a4e9-4987-b4f8-817e100a2b27-43294275563_thumb1200.jpg",
+                    "notes": "Joji"
+                },
+                {
+                    "name": "Catch Me Outside 2",
+                    "image": "https://dn721504.ca.archive.org/0/items/mbid-f654d169-6b70-45c4-80ae-a3231fba3ee3/mbid-f654d169-6b70-45c4-80ae-a3231fba3ee3-42419127881_thumb1200.jpg",
+                    "notes": "Ski Mask the Slump God"
+                },
+                {
+                    "name": "New David Bowie",
+                    "image": "https://ia803108.us.archive.org/4/items/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961-42688798715_thumb1200.jpg",
+                    "notes": "Jim Legxacy"
+                },
+                {
+                    "name": "FWU",
+                    "image": "https://ia902900.us.archive.org/17/items/mbid-eab2d8d8-339c-44a7-a84c-6e3ea63dd12f/mbid-eab2d8d8-339c-44a7-a84c-6e3ea63dd12f-42447289835_thumb1200.jpg",
+                    "notes": "Don Toliver"
+                }
+            ],
+            "artists": [
+                {
+                    "name": "Jim Legxacy",
+                    "image": "https://ia803108.us.archive.org/4/items/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961-42688798715_thumb1200.jpg",
+                    "notes": ""
+                },
+                {
+                    "name": "Saba",
+                    "image": "https://dn710204.ca.archive.org/0/items/mbid-34ce402a-d398-4fcb-a879-19646f901005/mbid-34ce402a-d398-4fcb-a879-19646f901005-43427454554_thumb1200.jpg",
+                    "notes": ""
+                },
+                {
+                    "name": "Chance the Rapper",
+                    "image": "https://dn721504.ca.archive.org/0/items/mbid-ae46812c-809b-4a22-aa02-1bb969e91b1f/mbid-ae46812c-809b-4a22-aa02-1bb969e91b1f-42764487853_thumb1200.jpg",
+                    "notes": ""
+                },
+                {
+                    "name": "Clipse",
+                    "image": "https://dn720705.ca.archive.org/0/items/mbid-22693477-c644-4212-848e-8c6b8391beb5/mbid-22693477-c644-4212-848e-8c6b8391beb5-42468744212_thumb1200.jpg",
+                    "notes": ""
+                },
+                {
+                    "name": "Yeat",
+                    "image": "https://dn710004.ca.archive.org/0/items/mbid-99c37a63-fab3-44f1-b5aa-5944a2207deb/mbid-99c37a63-fab3-44f1-b5aa-5944a2207deb-42649432742_thumb1200.jpg",
+                    "notes": ""
+                }
+            ]
+        }
+
+    ]
 }
