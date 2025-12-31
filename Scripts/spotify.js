@@ -31,8 +31,8 @@ Util.toggleClass = function(el, className, bool) {
 
 
 document.addEventListener('DOMContentLoaded', () => {
-  //var datapath = "spotify_data.json";
-  var datapath = 'spotify_data.json';
+
+  var datapath = '../data/spotify_data.json';
 
 
     $.getJSON(datapath, function(json) {
