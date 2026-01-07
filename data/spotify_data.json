@@ -1,5 +1,120 @@
 {
     "weeks":[
+            {
+            "weekRange": "12/29/25 - 01/04/26",
+            "songs": [
+                {
+                "name": "Gorgeous",
+                "image": "https://dn710308.ca.archive.org/0/items/mbid-1bf6e952-b8b3-41b1-902d-37d0b60fac16/mbid-1bf6e952-b8b3-41b1-902d-37d0b60fac16-43868008794_thumb1200.jpg",
+                "notes": "Kenny Mason"
+                },
+                {
+                "name": "SAY WE DID",
+                "image": "https://ia801703.us.archive.org/16/items/mbid-e68c088f-0c4a-42c0-9698-95340214a52c/mbid-e68c088f-0c4a-42c0-9698-95340214a52c-43808433008_thumb1200.jpg",
+                "notes": "Rico Nasty"
+                },
+                {
+                "name": "Triple Nickel",
+                "image": "https://dn721808.ca.archive.org/0/items/mbid-4b753c7e-fc29-462a-9be5-e70e44312c7e/mbid-4b753c7e-fc29-462a-9be5-e70e44312c7e-43654720946_thumb1200.jpg",
+                "notes": "MIKE AND MAVI"
+                },
+                {
+                "name": "Pretty",
+                "image": "https://dn721504.ca.archive.org/0/items/mbid-ae46812c-809b-4a22-aa02-1bb969e91b1f/mbid-ae46812c-809b-4a22-aa02-1bb969e91b1f-42764487853_thumb1200.jpg",
+                "notes": "Chance the Rapper"
+                },
+                {
+                "name": "100x",
+                "image": "https://ia601902.us.archive.org/1/items/mbid-5be89b74-1d0b-4d27-bf08-0aef58a04845/mbid-5be89b74-1d0b-4d27-bf08-0aef58a04845-43800948325_thumb1200.jpg",
+                "notes": "Chris Patrick"
+                }
+            ],
+            "artists": [
+                {
+                "name": "MAVI",
+                "image": "https://dn721808.ca.archive.org/0/items/mbid-4b753c7e-fc29-462a-9be5-e70e44312c7e/mbid-4b753c7e-fc29-462a-9be5-e70e44312c7e-43654720946_thumb1200.jpg",
+                "notes": "re-listening to an album, a lot of driving"
+                },
+                {
+                "name": "Chris Patrick",
+                "image": "https://ia601902.us.archive.org/1/items/mbid-5be89b74-1d0b-4d27-bf08-0aef58a04845/mbid-5be89b74-1d0b-4d27-bf08-0aef58a04845-43800948325_thumb1200.jpg",
+                "notes": "Staple"
+                },
+                {
+                "name": "Kanye West",
+                "image": "https://ia600506.us.archive.org/2/items/mbid-59c3d788-8880-44ae-9897-bb098a80e663/mbid-59c3d788-8880-44ae-9897-bb098a80e663-22181993881_thumb1200.jpg",
+                "notes": "                                   chicago            "
+                },
+                {
+                "name": "Chance the Rapper",
+                "image": "https://dn721504.ca.archive.org/0/items/mbid-ae46812c-809b-4a22-aa02-1bb969e91b1f/mbid-ae46812c-809b-4a22-aa02-1bb969e91b1f-42764487853_thumb1200.jpg",
+                "notes": "He's back(?)"
+                },
+                {
+                "name": "BNYX",
+                "image": "https://ia601003.us.archive.org/20/items/mbid-116ef33f-e5f1-48ed-8916-7699e2478b65/mbid-116ef33f-e5f1-48ed-8916-7699e2478b65-43393173763_thumb1200.jpg",
+                "notes": ""
+                }
+            ]
+            },
+            {
+            "weekRange": "12/22/25 - 12/28/25",
+            "songs": [
+                {
+                "name": "TELEPATHY LOVE",
+                "image": "https://ia601003.us.archive.org/20/items/mbid-116ef33f-e5f1-48ed-8916-7699e2478b65/mbid-116ef33f-e5f1-48ed-8916-7699e2478b65-43393173763_thumb1200.jpg",
+                "notes": "BNYX and Clara La San"
+                },
+                {
+                "name": "'06 wayne rooney",
+                "image": "https://ia803108.us.archive.org/4/items/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961-42688798715_thumb1200.jpg",
+                "notes": "Jim Legxacy"
+                },
+                {
+                "name": "Somasundareshwaram",
+                "image": "https://trichurbrothers.com/upload/gallery/original/image2_1542956796.jpg",
+                "notes": "Trichur Brothers"
+                },
+                {
+                "name": "Dandaalu Raaga",
+                "image": "https://trichurbrothers.com/upload/gallery/original/image2_1542956796.jpg",
+                "notes": "Trichur Brothers"
+                },
+                {
+                "name": "Hey Suryadeva",
+                "image": "https://trichurbrothers.com/upload/gallery/original/image2_1542956796.jpg",
+                "notes": "Trichur Brothers"
+                }
+            ],
+            "artists": [
+                {
+                "name": "Jim Legxacy",
+                "image": "https://ia803108.us.archive.org/4/items/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961-42688798715_thumb1200.jpg",
+                "notes": "Who's the best artist in the world? I'm sayin' Jim, on the day, depends"
+                },
+                {
+                "name": "Kanye West",
+                "image": "https://ia600506.us.archive.org/2/items/mbid-59c3d788-8880-44ae-9897-bb098a80e663/mbid-59c3d788-8880-44ae-9897-bb098a80e663-22181993881_thumb1200.jpg",
+                "notes": "Lot's of driving "
+                },
+                {
+                "name": "Spillage Village",
+                "image": "https://dn721801.ca.archive.org/0/items/mbid-dfb7eff0-9cb8-4c23-964c-4116dbcd3997/mbid-dfb7eff0-9cb8-4c23-964c-4116dbcd3997-27319996458_thumb1200.jpg",
+                "notes": "One of my favourite albums"
+                },
+                {
+                "name": "Trichur Brothers",
+                "image": "https://trichurbrothers.com/upload/gallery/original/image2_1542956796.jpg",
+                "notes": "An interesting week at home"
+                },
+                {
+                "name": "BNYX",
+                "image": "https://ia601003.us.archive.org/20/items/mbid-116ef33f-e5f1-48ed-8916-7699e2478b65/mbid-116ef33f-e5f1-48ed-8916-7699e2478b65-43393173763_thumb1200.jpg",
+                "notes": "floating"
+                }
+            ]
+            },
+
         
 
 
