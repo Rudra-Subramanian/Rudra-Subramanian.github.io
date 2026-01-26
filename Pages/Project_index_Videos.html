@@ -6,7 +6,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&family=Miltonian&family=Rubik+Burned&family=Tilt+Prism&family=Tourney:ital,wdth,wght@0,125,300;1,125,300&display=swap" rel="stylesheet">
-  <link href="../stylesheets/Project_index.css" rel="stylesheet">
+  <link href="../stylesheets/Project_index_videos.css" rel="stylesheet">
   <script type="importmap">
 {
   "imports": {
@@ -41,16 +41,18 @@
 
 
 
-  <div class="hero-body tab-contents" id="Videos">
+  <div class="hero-body tab-contents" id="Videos" style="display: flex;">
     <div class="container">
-      <div class="title"> Videos</div>
+      <p class="title has-text-centered">Videos</p>
+      <video class="videocard is-hidden is-centered" controls id="VideosVideoControl">
+          <source src="" type="video/mp4">
+      </video>
   </div>
+      <aside class="menu">
+      
+      <button class="title is-6 button is-warning" onclick="ShowVideo(event, '../videos/new_david_bowie_visualiser.mp4')">New David Bowie Visualiser - Jim Legxacy</button>
     
   </div>
-
-
-
-
 
 
     <div class="hero-foot"  >
@@ -74,3 +76,6 @@
     </nav>
   </div>
 </section>
+<script src="../Scripts/Project_Videos.js"></script> 
+</body>
+</html>

@@ -17,6 +17,10 @@ if (video_load){
         WIPVideoControl.src = '../videos/water_droplet_animation_portugal.mp4';
         WIPVideoControl.classList.remove("is-hidden");
     }
+    if (video_load.toLowerCase()  === "visualiser"){
+        WIPVideoControl.src = '../videos/keep_a_smile_visualiser.mp4';
+        WIPVideoControl.classList.remove("is-hidden");
+    }
 
 }
 

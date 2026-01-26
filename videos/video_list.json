@@ -1,10 +1,10 @@
 
 [
     {
-        "name": "Beach Monday V1 ",
-        "filename": "beach_monday_v2_compressed.mp4",
-        "description": "Initial test for quadeca monday beach version 1",
-        "src": "../videos/beach_monday_v2_compressed.mp4"
+        "name": "New David Bowie",
+        "filename": "new_david_bowie_visualiser.mp4",
+        "description": "Visualisation for New David Bowie by Jim Legxacy",
+        "src": "../videos/new_david_bowie_visualiser.mp4"
     },
 
     {
@@ -12,6 +12,12 @@
         "filename": "monday_test_1.mp4", 
         "description": "Initial Test for quadeca monday, setting up environment and lighting.",
         "src": "../videos/monday_test_1.mp4"
+    },
+    {
+        "name": "Keep A Smile Test visualiser",
+        "filename": "keep_a_smile_visualiser.mp4",
+        "description": "Visualisation for Keep A Smile Test by 454 (Testing some camera positions)",
+        "src": "../videos/keep_a_smile_visualiser.mp4"
     },
     {
         "name": "No questions asked Quadeca beach v1",
