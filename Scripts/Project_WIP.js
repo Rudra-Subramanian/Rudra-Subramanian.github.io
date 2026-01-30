@@ -21,6 +21,10 @@ if (video_load){
         WIPVideoControl.src = '../videos/keep_a_smile_visualiser.mp4';
         WIPVideoControl.classList.remove("is-hidden");
     }
+    if (video_load.toLowerCase()  === "caravan"){
+        WIPVideoControl.src = '../videos/thelonius_monk_piano.mp4';
+        WIPVideoControl.classList.remove("is-hidden");
+    }
 
 }
 
