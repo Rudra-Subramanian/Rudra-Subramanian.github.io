@@ -1,0 +1,45 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css";
+
+:root{
+    overflow:scroll;
+    --bulma-size-large: 3rem;
+
+}
+
+.title{
+    --bulma-title-size: 5rem;
+
+}
+
+
+
+.navbar {
+  --bulma-navbar-background-color: transparent;
+  --bulma-navbar-box-shadow-color: hsl(147, 36%, 35%);
+  --bulma-navbar-item-background-l: 0%;
+  --bulma-navbar-item-hover-background-l-delta: 0%;
+  --bulma-navbar-item-active-background-l-delta: 0%;
+  --bulma-navbar-burger-color: #D7F9F1;
+}
+
+.navbar-item:hover {
+  background-color: hsla(0, 0%, 0%, 0.639);
+  color: white;
+}
+
+
+#maintext {
+  word-break: break-all;
+  margin:0;
+  padding:0;
+}
+
+#blogbuttons {
+    margin: 3rem;
+    padding-bottom: 1rem;
+}
+
+
+
+
+
