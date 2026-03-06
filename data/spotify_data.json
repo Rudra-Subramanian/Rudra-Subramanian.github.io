@@ -1,5 +1,291 @@
 {
     "weeks":[
+      {
+  "weekRange": "02/23/26 - 03/01/26",
+  "songs": [
+    {
+      "name": "Pleasure's Mine",
+      "image": "https://dn710602.ca.archive.org/0/items/mbid-7a35eb1b-50ce-4c03-84b3-91e6da6a4654/mbid-7a35eb1b-50ce-4c03-84b3-91e6da6a4654-44227317419_thumb1200.jpg",
+      "notes": "played 3 times more than the runner up"
+    },
+    {
+      "name": "ATM",
+      "image": "https://dn710602.ca.archive.org/0/items/mbid-7a35eb1b-50ce-4c03-84b3-91e6da6a4654/mbid-7a35eb1b-50ce-4c03-84b3-91e6da6a4654-44227317419_thumb1200.jpg",
+      "notes": "Don Toliver"
+    },
+    {
+      "name": "Rose Colored",
+      "image": "https://ia800106.us.archive.org/8/items/mbid-7cf4927a-2369-41c6-88d1-8b1ed5887c7e/mbid-7cf4927a-2369-41c6-88d1-8b1ed5887c7e-44328911892_thumb1200.jpg",
+      "notes": "Joji and Yeat"
+    },
+    {
+      "name": "Good Flirts",
+      "image": "https://dn711109.ca.archive.org/0/items/mbid-7d3cbad7-aa03-424d-8954-bc0d63918d00/mbid-7d3cbad7-aa03-424d-8954-bc0d63918d00-44403979078_thumb1200.jpg",
+      "notes": "Baby Keem"
+    },
+    {
+      "name": "The Negro Problem",
+      "image": "https://dn721504.ca.archive.org/0/items/mbid-ae46812c-809b-4a22-aa02-1bb969e91b1f/mbid-ae46812c-809b-4a22-aa02-1bb969e91b1f-42764487853_thumb1200.jpg",
+      "notes": "Chance the Rapper"
+    }
+  ],
+  "artists": [
+    {
+      "name": "Don Toliver",
+      "image": "https://dn710602.ca.archive.org/0/items/mbid-7a35eb1b-50ce-4c03-84b3-91e6da6a4654/mbid-7a35eb1b-50ce-4c03-84b3-91e6da6a4654-44227317419_thumb1200.jpg",
+      "notes": ""
+    },
+    {
+      "name": "Joji",
+      "image": "https://ia800106.us.archive.org/8/items/mbid-7cf4927a-2369-41c6-88d1-8b1ed5887c7e/mbid-7cf4927a-2369-41c6-88d1-8b1ed5887c7e-44328911892_thumb1200.jpg",
+      "notes": ""
+    },
+    {
+      "name": "Baby Keem",
+      "image": "https://dn711109.ca.archive.org/0/items/mbid-7d3cbad7-aa03-424d-8954-bc0d63918d00/mbid-7d3cbad7-aa03-424d-8954-bc0d63918d00-44403979078_thumb1200.jpg",
+      "notes": ""
+    },
+    {
+      "name": "Jim Legxacy",
+      "image": "https://ia803108.us.archive.org/4/items/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961-42688798715_thumb1200.jpg",
+      "notes": ""
+    },
+    {
+      "name": "Yeat",
+      "image": "https://dn710004.ca.archive.org/0/items/mbid-99c37a63-fab3-44f1-b5aa-5944a2207deb/mbid-99c37a63-fab3-44f1-b5aa-5944a2207deb-42649432742_thumb1200.jpg",
+      "notes": ""
+    }
+  ]
+},
+      {
+  "weekRange": "02/16/26 - 02/22/26",
+  "songs": [
+    {
+      "name": "Moonlight",
+      "image": "https://dn710202.ca.archive.org/0/items/mbid-5d772ea6-5556-4170-b59a-fb94ab7e5ec7/mbid-5d772ea6-5556-4170-b59a-fb94ab7e5ec7-44265570179_thumb1200.jpg",
+      "notes": "Kenny Mason - Wow"
+    },
+    {
+      "name": "Temptations",
+      "image": "https://dn721503.ca.archive.org/0/items/mbid-2c78ff3c-63c5-45d0-9cac-17200d889692/mbid-2c78ff3c-63c5-45d0-9cac-17200d889692-42031783182_thumb1200.jpg",
+      "notes": "Aminé"
+    },
+    {
+      "name": "IM YEAT",
+      "image": "https://dn710004.ca.archive.org/0/items/mbid-99c37a63-fab3-44f1-b5aa-5944a2207deb/mbid-99c37a63-fab3-44f1-b5aa-5944a2207deb-42649432742_thumb1200.jpg",
+      "notes": "Yeat and BNYX"
+    },
+    {
+      "name": "Love Me Better",
+      "image": "https://ia800106.us.archive.org/8/items/mbid-7cf4927a-2369-41c6-88d1-8b1ed5887c7e/mbid-7cf4927a-2369-41c6-88d1-8b1ed5887c7e-44328911892_thumb1200.jpg",
+      "notes": "Joji"
+    },
+    {
+      "name": "lights",
+      "image": "https://dn721904.ca.archive.org/0/items/mbid-e79d7269-37ac-4857-93a6-902996572835/mbid-e79d7269-37ac-4857-93a6-902996572835-43417286939_thumb1200.jpg",
+      "notes": "Monte Booker and Smino"
+    }
+  ],
+  "artists": [
+    {
+      "name": "Baby Keem",
+      "image": "https://dn711109.ca.archive.org/0/items/mbid-7d3cbad7-aa03-424d-8954-bc0d63918d00/mbid-7d3cbad7-aa03-424d-8954-bc0d63918d00-44403979078_thumb1200.jpg",
+      "notes": "NEW ALBUM"
+    },
+    {
+      "name": "Don Toliver",
+      "image": "https://dn710602.ca.archive.org/0/items/mbid-7a35eb1b-50ce-4c03-84b3-91e6da6a4654/mbid-7a35eb1b-50ce-4c03-84b3-91e6da6a4654-44227317419_thumb1200.jpg",
+      "notes": ""
+    },
+    {
+      "name": "Joji",
+      "image": "https://ia800106.us.archive.org/8/items/mbid-7cf4927a-2369-41c6-88d1-8b1ed5887c7e/mbid-7cf4927a-2369-41c6-88d1-8b1ed5887c7e-44328911892_thumb1200.jpg",
+      "notes": "good album"
+    },
+    {
+      "name": "Quadeca",
+      "image": "https://dn720706.ca.archive.org/0/items/mbid-e8b1865d-fe35-4d78-9fcf-8a570da2a01c/mbid-e8b1865d-fe35-4d78-9fcf-8a570da2a01c-44159526364_thumb1200.jpg",
+      "notes": ""
+    },
+    {
+      "name": "Kenny Mason",
+      "image": "https://dn710202.ca.archive.org/0/items/mbid-5d772ea6-5556-4170-b59a-fb94ab7e5ec7/mbid-5d772ea6-5556-4170-b59a-fb94ab7e5ec7-44265570179_thumb1200.jpg",
+      "notes": "He has ascended"
+    }
+  ]
+},
+
+      {
+  "weekRange": "02/09/26 - 02/15/26",
+  "songs": [
+    {
+      "name": "Love Me Better",
+      "image": "https://ia800106.us.archive.org/8/items/mbid-7cf4927a-2369-41c6-88d1-8b1ed5887c7e/mbid-7cf4927a-2369-41c6-88d1-8b1ed5887c7e-44328911892_thumb1200.jpg",
+      "notes": "Joji"
+    },
+    {
+      "name": "Moonlight",
+      "image": "https://dn710202.ca.archive.org/0/items/mbid-5d772ea6-5556-4170-b59a-fb94ab7e5ec7/mbid-5d772ea6-5556-4170-b59a-fb94ab7e5ec7-44265570179_thumb1200.jpg",
+      "notes": "Very vibey"
+    },
+    {
+      "name": "Rose Colored",
+      "image": "https://ia800106.us.archive.org/8/items/mbid-7cf4927a-2369-41c6-88d1-8b1ed5887c7e/mbid-7cf4927a-2369-41c6-88d1-8b1ed5887c7e-44328911892_thumb1200.jpg",
+      "notes": "Joji and Yeat"
+    },
+    {
+      "name": "Dior",
+      "image": "https://ia800106.us.archive.org/8/items/mbid-7cf4927a-2369-41c6-88d1-8b1ed5887c7e/mbid-7cf4927a-2369-41c6-88d1-8b1ed5887c7e-44328911892_thumb1200.jpg",
+      "notes": "Joji"
+    },
+    {
+      "name": "If It Only Gets Better",
+      "image": "https://ia800106.us.archive.org/8/items/mbid-7cf4927a-2369-41c6-88d1-8b1ed5887c7e/mbid-7cf4927a-2369-41c6-88d1-8b1ed5887c7e-44328911892_thumb1200.jpg",
+      "notes": "Joji"
+    }
+  ],
+  "artists": [
+    {
+      "name": "Joji",
+      "image": "https://ia800106.us.archive.org/8/items/mbid-7cf4927a-2369-41c6-88d1-8b1ed5887c7e/mbid-7cf4927a-2369-41c6-88d1-8b1ed5887c7e-44328911892_thumb1200.jpg",
+      "notes": "HMMMMM got some bangers\n\n"
+    },
+    {
+      "name": "Don Toliver",
+      "image": "https://dn710602.ca.archive.org/0/items/mbid-7a35eb1b-50ce-4c03-84b3-91e6da6a4654/mbid-7a35eb1b-50ce-4c03-84b3-91e6da6a4654-44227317419_thumb1200.jpg",
+      "notes": "New album is good"
+    },
+    {
+      "name": "Kenny Mason",
+      "image": "https://dn710202.ca.archive.org/0/items/mbid-5d772ea6-5556-4170-b59a-fb94ab7e5ec7/mbid-5d772ea6-5556-4170-b59a-fb94ab7e5ec7-44265570179_thumb1200.jpg",
+      "notes": ""
+    },
+    {
+      "name": "Yeat",
+      "image": "https://ia800106.us.archive.org/8/items/mbid-7cf4927a-2369-41c6-88d1-8b1ed5887c7e/mbid-7cf4927a-2369-41c6-88d1-8b1ed5887c7e-44328911892_thumb1200.jpg",
+      "notes": ""
+    },
+    {
+      "name": "J. Cole",
+      "image": "https://dn720000.ca.archive.org/0/items/mbid-e18904c4-92d6-496a-ab52-ef94a13b5b37/mbid-e18904c4-92d6-496a-ab52-ef94a13b5b37-44340420208_thumb1200.jpg",
+      "notes": "Not the best with a lot of songs"
+    }
+  ]
+},
+      {
+  "weekRange": "02/02/26 - 02/08/26",
+  "songs": [
+    {
+      "name": "DON'T BE DUMB/TRIP BABY",
+      "image": "https://dn720800.ca.archive.org/0/items/mbid-e01b53d1-339b-4f03-a900-2308c4de5915/mbid-e01b53d1-339b-4f03-a900-2308c4de5915-44101127412_thumb1200.jpg",
+      "notes": "A$AP Rocky"
+    },
+    {
+      "name": "Robbery",
+      "image": "https://dn720800.ca.archive.org/0/items/mbid-e01b53d1-339b-4f03-a900-2308c4de5915/mbid-e01b53d1-339b-4f03-a900-2308c4de5915-44101127412_thumb1200.jpg",
+      "notes": "Again!"
+    },
+    {
+      "name": "E85",
+      "image": "https://dn710602.ca.archive.org/0/items/mbid-7a35eb1b-50ce-4c03-84b3-91e6da6a4654/mbid-7a35eb1b-50ce-4c03-84b3-91e6da6a4654-44227317419_thumb1200.jpg",
+      "notes": "Don Toliver (NEW ALBUM!!)"
+    },
+    {
+      "name": "Abandon Me",
+      "image": "https://dn710106.ca.archive.org/0/items/mbid-c1548400-28b1-45ec-b3a5-aab3fbfb3ecf/mbid-c1548400-28b1-45ec-b3a5-aab3fbfb3ecf-43788309622_thumb1200.jpg",
+      "notes": "Quadeca and Kevin Abstract"
+    },
+    {
+      "name": "TELEPATHY LOVE",
+      "image": "https://ia601003.us.archive.org/20/items/mbid-116ef33f-e5f1-48ed-8916-7699e2478b65/mbid-116ef33f-e5f1-48ed-8916-7699e2478b65-43393173763_thumb1200.jpg",
+      "notes": "BNYX and Clara La San"
+    }
+  ],
+  "artists": [
+    {
+      "name": "Don Toliver",
+      "image": "https://dn710602.ca.archive.org/0/items/mbid-7a35eb1b-50ce-4c03-84b3-91e6da6a4654/mbid-7a35eb1b-50ce-4c03-84b3-91e6da6a4654-44227317419_thumb1200.jpg",
+      "notes": "Listening to the new album"
+    },
+    {
+      "name": "Joji",
+      "image": "https://ia800106.us.archive.org/8/items/mbid-7cf4927a-2369-41c6-88d1-8b1ed5887c7e/mbid-7cf4927a-2369-41c6-88d1-8b1ed5887c7e-44328911892_thumb1200.jpg",
+      "notes": "NEW JOJI ALBUM!!"
+    },
+    {
+      "name": "J. Cole",
+      "image": "https://dn720000.ca.archive.org/0/items/mbid-e18904c4-92d6-496a-ab52-ef94a13b5b37/mbid-e18904c4-92d6-496a-ab52-ef94a13b5b37-44340420208_thumb1200.jpg",
+      "notes": "new album?!?"
+    },
+    {
+      "name": "A$AP Rocky",
+      "image": "https://dn720800.ca.archive.org/0/items/mbid-e01b53d1-339b-4f03-a900-2308c4de5915/mbid-e01b53d1-339b-4f03-a900-2308c4de5915-44101127412_thumb1200.jpg",
+      "notes": ""
+    },
+    {
+      "name": "IDK",
+      "image": "https://dn721503.ca.archive.org/0/items/mbid-3570b324-e5ea-4026-a6ce-0cb57e7d66a0/mbid-3570b324-e5ea-4026-a6ce-0cb57e7d66a0-44170162269_thumb1200.jpg",
+      "notes": "New mixtape?"
+    }
+  ]
+},
+      {
+  "weekRange": "01/26/26 - 02/01/26",
+  "songs": [
+    {
+      "name": "STAY HERE 4 LIFE",
+      "image": "https://dn720800.ca.archive.org/0/items/mbid-e01b53d1-339b-4f03-a900-2308c4de5915/mbid-e01b53d1-339b-4f03-a900-2308c4de5915-44101127412_thumb1200.jpg",
+      "notes": "A$AP Rocky and Brent Faiyaz"
+    },
+    {
+      "name": "Robbery",
+      "image": "https://dn720800.ca.archive.org/0/items/mbid-e01b53d1-339b-4f03-a900-2308c4de5915/mbid-e01b53d1-339b-4f03-a900-2308c4de5915-44101127412_thumb1200.jpg",
+      "notes": "A$AP Rocky and Doechii"
+    },
+    {
+      "name": "Stateside + Bladee",
+      "image": "https://dn721808.ca.archive.org/0/items/mbid-32b5cbe0-be61-493f-b896-bc9c4752ac1c/mbid-32b5cbe0-be61-493f-b896-bc9c4752ac1c-43276468415_thumb1200.jpg",
+      "notes": "PinkPantheress and Bladee"
+    },
+    {
+      "name": "lights",
+      "image": "https://dn721904.ca.archive.org/0/items/mbid-e79d7269-37ac-4857-93a6-902996572835/mbid-e79d7269-37ac-4857-93a6-902996572835-43417286939_thumb1200.jpg",
+      "notes": "Monte Booker and Smino"
+    },
+    {
+      "name": "Abandon Me",
+      "image": "https://dn710106.ca.archive.org/0/items/mbid-c1548400-28b1-45ec-b3a5-aab3fbfb3ecf/mbid-c1548400-28b1-45ec-b3a5-aab3fbfb3ecf-43788309622_thumb1200.jpg",
+      "notes": "Quadeca and Kevin Abstract"
+    }
+  ],
+  "artists": [
+    {
+      "name": "A$AP Rocky",
+      "image": "https://dn720800.ca.archive.org/0/items/mbid-e01b53d1-339b-4f03-a900-2308c4de5915/mbid-e01b53d1-339b-4f03-a900-2308c4de5915-44101127412_thumb1200.jpg",
+      "notes": ""
+    },
+    {
+      "name": "Jim Legxacy",
+      "image": "https://ia803108.us.archive.org/4/items/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961/mbid-8f4bba1a-34a0-4236-8089-91485a4ad961-42688798715_thumb1200.jpg",
+      "notes": ""
+    },
+    {
+      "name": "JID",
+      "image": "https://dn710000.ca.archive.org/0/items/mbid-608f84cc-d047-4686-a997-b67d6305ab49/mbid-608f84cc-d047-4686-a997-b67d6305ab49-42781856813_thumb1200.jpg",
+      "notes": ""
+    },
+    {
+      "name": "Chance the Rapper",
+      "image": "https://dn721504.ca.archive.org/0/items/mbid-ae46812c-809b-4a22-aa02-1bb969e91b1f/mbid-ae46812c-809b-4a22-aa02-1bb969e91b1f-42764487853_thumb1200.jpg",
+      "notes": ""
+    },
+    {
+      "name": "Clipse",
+      "image": "https://dn720705.ca.archive.org/0/items/mbid-22693477-c644-4212-848e-8c6b8391beb5/mbid-22693477-c644-4212-848e-8c6b8391beb5-42468744212_thumb1200.jpg",
+      "notes": ""
+    }
+  ]
+},
         {
   "weekRange": "01/19/26 - 01/25/26",
   "songs": [
