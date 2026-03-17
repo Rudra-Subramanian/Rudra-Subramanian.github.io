@@ -15,7 +15,20 @@ quadeca_button.addEventListener('click', LoadQuadecaModel);
 const PCB_button = document.getElementById('LoadPCB');
 PCB_button.addEventListener('click', LoadPCBModel);
 
+
+const mediaQuery = window.matchMedia('(max-aspect-ratio: 1/1)')
+const herosection = document.getElementsByClassName("hero")[0];
+//console.log(herosection);
+
+// Check if the media query is true
+if (mediaQuery.matches) {
+  // Then trigger an alert
+  herosection.style.maxHeight = window.innerHeight + "px";
+  
+}
+
 const sign = document.getElementById('sign');
+
 
 sign.addEventListener('mouseover', (event) => {
     setTimeout(() => {

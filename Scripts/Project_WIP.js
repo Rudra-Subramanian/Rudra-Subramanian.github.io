@@ -6,6 +6,17 @@ const videolabel = document.getElementById("videolabel");
 
 console.log(video_load);
 
+const mediaQuery = window.matchMedia('(max-aspect-ratio: 1/1)')
+const herosection = document.getElementsByClassName("hero")[0];
+
+// Check if the media query is true
+if (mediaQuery.matches) {
+  // Then trigger an alert
+
+  herosection.style.maxHeight = window.innerHeight + "px";
+  
+}
+
 if (video_load){
     if (video_load.toLowerCase() === "monday"){
         WIPVideoControl.src = '../videos/beach_monday_v2_compressed.mp4';

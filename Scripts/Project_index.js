@@ -10,6 +10,18 @@ const WIPVideoControl = document.getElementById("WIPVideoControl");
 const ModelControl = document.getElementById("ModelsContainer");
 
 
+const mediaQuery = window.matchMedia('(max-aspect-ratio: 1/1)')
+const herosection = document.getElementsByClassName("hero")[0];
+
+// Check if the media query is true
+if (mediaQuery.matches) {
+  // Then trigger an alert
+
+  herosection.style.maxHeight = window.innerHeight + "px";
+  
+}
+
+
 function ChangeHeroColorScheme(color_scheme){
     for (let i = 0; i < color_schemes.length; i++) {
         if (color_schemes[i] === color_scheme) {

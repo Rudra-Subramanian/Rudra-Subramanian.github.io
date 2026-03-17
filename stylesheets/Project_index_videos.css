@@ -43,6 +43,9 @@
 #ModelsContainer {
   overflow: hidden;
 }
+  #VideosVideoControl{
+    width: 90%;
+  }
 
 
 /* 
