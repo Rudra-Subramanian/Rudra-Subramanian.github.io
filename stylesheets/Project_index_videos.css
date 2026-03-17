@@ -37,7 +37,7 @@
 
 .videocard{
     object-fit: cover;
-    width: 50%;
+    width: 100%;
 }
 
 #ModelsContainer {
