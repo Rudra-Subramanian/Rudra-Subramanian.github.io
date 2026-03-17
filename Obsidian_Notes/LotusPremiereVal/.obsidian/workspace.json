@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Contents.md",
+                "file": "Defense/Viper C reactions-midrounds.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Contents"
+              "title": "Viper C reactions-midrounds"
             }
           }
         ],
@@ -189,6 +189,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -199,25 +200,25 @@
   },
   "active": "c2b54460c3c695b6",
   "lastOpenFiles": [
+    "Defense/A rubble trap.md",
+    "Defence.md",
+    "Defense/C Mound trap.md",
+    "Contents.md",
     "Agents/Gekko.md",
     "images/Gekko A main dizzy.mp4",
     "Templates/Lineup.md",
-    "Defence.md",
     "Attack.md",
-    "Contents.md",
     "Defense/Viper A default.md",
     "Defense/Viper C reactions-midrounds.md",
     "images/kayo flash a.png",
     "Defense/Viper C default.md",
     "images/kayo knife midround door.png",
-    "Defense/A rubble trap.md",
     "images/a rubble trap.png",
     "images/viper c default.png",
     "Defense/Viper A reactions-midrounds.md",
     "images/phoenix gekko mound trap.png",
     "images/Viper A slow reactions.png",
     "images/Viper a good default.png",
-    "Defense/C Mound trap.md",
     "images/C mound trap.png",
     "images/alternate A orb 2.png",
     "images/alternate A orb 2.png",

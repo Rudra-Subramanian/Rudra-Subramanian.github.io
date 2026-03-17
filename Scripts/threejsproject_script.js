@@ -15,6 +15,16 @@ quadeca_button.addEventListener('click', LoadQuadecaModel);
 const PCB_button = document.getElementById('LoadPCB');
 PCB_button.addEventListener('click', LoadPCBModel);
 
+const sign = document.getElementById('sign');
+
+sign.addEventListener('mouseover', (event) => {
+    setTimeout(() => {
+        sign.src = "../images/spinmesign.gif";
+    }, 0);
+
+});
+    
+
 
 
 //scene
@@ -139,3 +149,8 @@ function animate() {
     renderer.render(currentScene, camera);
 }
 animate();
+
+controls.addEventListener('change', () => {        
+    sign.style.opacity = 0;
+
+});

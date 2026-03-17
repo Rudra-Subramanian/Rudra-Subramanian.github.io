@@ -17,6 +17,7 @@
   --bulma-danger-s: 28%;
 }
 
+
 .tabs {
   --bulma-tabs-link-color: hsl(196deg,27%,10%);
   --bulma-tabs-link-active-color: hsl(221deg,14%,93%);
@@ -41,5 +42,94 @@
 }
 
 #ModelsContainer {
-  overflow: hidden;
+  overflow: visible;
+}
+
+#sign {
+  z-index: 1;
+  position: absolute;
+  right: 20dvw;
+  top: -10dvh;
+  width: 20%;
+  transition: opacity 0.5s linear; 
+}
+
+.button {
+  font-weight: 1000;
+}
+
+
+/* 
+ * Navbar Layout Styles
+ * 
+ * This section defines the flexbox-based layout for a responsive navigation bar.
+ * 
+ * .navbar-item
+ *   - Applies flexbox display to individual navbar items
+ *   - Vertically centers content using align-items: center
+ * 
+ * .navbar, .navbar-menu, .navbar-start, .navbar-end
+ *   - All use flexbox layout with items stretched to fill available space
+ *   - Reset padding to 0 for consistent spacing control
+ * 
+ * .navbar-menu
+ *   - Expands to fill available horizontal space (flex-grow: 1)
+ *   - Prevents shrinking below content size (flex-shrink: 0)
+ * 
+ * .navbar-start
+ *   - Aligns child items to the left side of the navbar
+ *   - Uses margin-right: auto to push content to the start
+ * 
+ * .navbar-end
+ *   - Aligns child items to the right side of the navbar
+ *   - Uses margin-left: auto to push content to the end
+ * 
+ * .navbar .container
+ *   - Enables flexbox layout for the navbar container
+ *   - Ensures proper alignment of navbar sections
+ */
+
+.navbar-item {
+  display: flex;
+}
+
+.navbar,
+.navbar-menu,
+.navbar-start,
+.navbar-end {
+  align-items: stretch;
+  display: flex;
+  padding: 0;
+}
+
+.navbar-menu{
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.navbar-start{
+  justify-content: flex-start;
+  margin-right: auto;
+}
+.navbar-end{
+  justify-content: flex-end;
+  margin-left: auto;
+}
+.navbar .container {
+  display: flex;
+}
+.navbar-item {
+  display: flex;
+  align-items: center;
+}
+
+
+
+@media (max-aspect-ratio: 1/1) {
+  #sign{
+    width: 30dvw;
+    position: absolute;
+    right: -10dvw;
+    top: -5dvh;
+
+  }
 }

@@ -31,6 +31,14 @@ function ShowVideo(event, VideoName){
     VideosVideoControl.setAttribute("controls", "");
     VideosVideoControl.removeAttribute("autoplay");
     VideosVideoControl.removeAttribute("loop");
+     if (VideoName  === "../videos/new_david_bowie_visualiser.mp4"){
+        videolabel.style.display = "block";
+        videolabel.innerHTML = "Visualisation for New David Bowie by Jim Legxacy. Made in Blender";
+    }
+    if (VideoName  === "../videos/howiimagineasack.mp4"){
+        videolabel.style.display = "block";
+        videolabel.innerHTML = "What getting sacked probably feels like. <br /> Made in Blender.";
+    }
 
 
 }

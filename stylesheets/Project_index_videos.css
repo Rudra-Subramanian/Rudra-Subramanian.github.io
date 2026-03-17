@@ -43,3 +43,82 @@
 #ModelsContainer {
   overflow: hidden;
 }
+
+
+/* 
+ * Navbar Layout Styles
+ * 
+ * This section defines the flexbox-based layout for a responsive navigation bar.
+ * 
+ * .navbar-item
+ *   - Applies flexbox display to individual navbar items
+ *   - Vertically centers content using align-items: center
+ * 
+ * .navbar, .navbar-menu, .navbar-start, .navbar-end
+ *   - All use flexbox layout with items stretched to fill available space
+ *   - Reset padding to 0 for consistent spacing control
+ * 
+ * .navbar-menu
+ *   - Expands to fill available horizontal space (flex-grow: 1)
+ *   - Prevents shrinking below content size (flex-shrink: 0)
+ * 
+ * .navbar-start
+ *   - Aligns child items to the left side of the navbar
+ *   - Uses margin-right: auto to push content to the start
+ * 
+ * .navbar-end
+ *   - Aligns child items to the right side of the navbar
+ *   - Uses margin-left: auto to push content to the end
+ * 
+ * .navbar .container
+ *   - Enables flexbox layout for the navbar container
+ *   - Ensures proper alignment of navbar sections
+ */
+
+.navbar-item {
+  display: flex;
+}
+
+.navbar,
+.navbar-menu,
+.navbar-start,
+.navbar-end {
+  align-items: stretch;
+  display: flex;
+  padding: 0;
+}
+
+.navbar-menu{
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.navbar-start{
+  justify-content: flex-start;
+  margin-right: auto;
+}
+.navbar-end{
+  justify-content: flex-end;
+  margin-left: auto;
+}
+.navbar .container {
+  display: flex;
+}
+.navbar-item {
+  display: flex;
+  align-items: center;
+}
+#videolabel{
+  display: none;
+}
+@media (max-aspect-ratio: 1/1) {
+  div#Videos {
+    flex-direction: column;
+  }
+  #VideosVideoControl{
+    width: 100%;
+  }
+
+  #videolabel{
+    display: none;
+  }
+}

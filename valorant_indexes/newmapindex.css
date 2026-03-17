@@ -1,0 +1,32 @@
+/* Radial circular gradient background */
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css";
+
+
+.hero {
+    background-color: #0E131B; /* Fallback */
+    background: radial-gradient(circle at center,#151C28  0%, #0E131B 100%);
+    background-attachment: fixed;
+}
+
+
+div.columns {
+    max-width: 100vw;
+    max-height: 100vh;
+    margin: auto;
+}
+
+.card {
+    background-color: transparent;
+    max-height: 20vh;
+    max-width: 30vw;
+    overflow: hidden;
+}
+
+.card-image {
+    object-fit: cover;
+    overflow: hidden;
+    height: 30%;
+    width: 30%;
+    
+}
+
