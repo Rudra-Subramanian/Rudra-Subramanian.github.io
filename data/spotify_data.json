@@ -1,6 +1,120 @@
 {
     "weeks":[
       {
+  "weekRange": "03/30/26 - 04/05/26",
+  "songs": [
+    {
+      "name": "WTFFF",
+      "image": "https://dn711200.ca.archive.org/0/items/mbid-d00ad971-9537-4f1f-abfb-db6b81a111d8/mbid-d00ad971-9537-4f1f-abfb-db6b81a111d8-44451980887_thumb500.jpg",
+      "notes": "Concrete Boys"
+    },
+    {
+      "name": "The Peace",
+      "image": "https://dn711000.ca.archive.org/0/items/mbid-fa198feb-af0b-4d07-a65f-3f53fb8bff46/mbid-fa198feb-af0b-4d07-a65f-3f53fb8bff46-44651354753_thumb500.jpg",
+      "notes": "Underscores\n"
+    },
+    {
+      "name": "Lovefield",
+      "image": "https://dn711000.ca.archive.org/0/items/mbid-fa198feb-af0b-4d07-a65f-3f53fb8bff46/mbid-fa198feb-af0b-4d07-a65f-3f53fb8bff46-44651354753_thumb500.jpg",
+      "notes": "Underscores"
+    },
+    {
+      "name": "Excavator",
+      "image": "https://dn710602.ca.archive.org/0/items/mbid-7a35eb1b-50ce-4c03-84b3-91e6da6a4654/mbid-7a35eb1b-50ce-4c03-84b3-91e6da6a4654-44227317419_thumb1200.jpg",
+      "notes": "Don Toliver"
+    },
+    {
+      "name": "idk idk",
+      "image": "https://dn711304.ca.archive.org/0/items/mbid-1fdaeebd-4f61-47c5-8b1c-437f4cd37d6f/mbid-1fdaeebd-4f61-47c5-8b1c-437f4cd37d6f-44763771765_thumb500.jpg",
+      "notes": "Jim Legxacy"
+    }
+  ],
+  "artists": [
+    {
+      "name": "Jim Legxacy",
+      "image": "https://dn711304.ca.archive.org/0/items/mbid-1fdaeebd-4f61-47c5-8b1c-437f4cd37d6f/mbid-1fdaeebd-4f61-47c5-8b1c-437f4cd37d6f-44763771765_thumb500.jpg",
+      "notes": ""
+    },
+    {
+      "name": "Don Toliver",
+      "image": "https://dn710602.ca.archive.org/0/items/mbid-7a35eb1b-50ce-4c03-84b3-91e6da6a4654/mbid-7a35eb1b-50ce-4c03-84b3-91e6da6a4654-44227317419_thumb1200.jpg",
+      "notes": ""
+    },
+    {
+      "name": "Underscores",
+      "image": "https://dn711000.ca.archive.org/0/items/mbid-fa198feb-af0b-4d07-a65f-3f53fb8bff46/mbid-fa198feb-af0b-4d07-a65f-3f53fb8bff46-44651354753_thumb500.jpg",
+      "notes": ""
+    },
+    {
+      "name": "Joji",
+      "image": "https://dn710403.ca.archive.org/0/items/mbid-7cf4927a-2369-41c6-88d1-8b1ed5887c7e/mbid-7cf4927a-2369-41c6-88d1-8b1ed5887c7e-44328911892_thumb500.jpg",
+      "notes": ""
+    },
+    {
+      "name": "Concrete Boys",
+      "image": "https://dn711200.ca.archive.org/0/items/mbid-d00ad971-9537-4f1f-abfb-db6b81a111d8/mbid-d00ad971-9537-4f1f-abfb-db6b81a111d8-44451980887_thumb500.jpg",
+      "notes": ""
+    }
+  ]
+},
+      {
+  "weekRange": "03/23/26 - 03/29/26",
+  "songs": [
+    {
+      "name": "WTFFF",
+      "image": "https://dn711200.ca.archive.org/0/items/mbid-d00ad971-9537-4f1f-abfb-db6b81a111d8/mbid-d00ad971-9537-4f1f-abfb-db6b81a111d8-44451980887_thumb500.jpg",
+      "notes": "Concrete Boys"
+    },
+    {
+      "name": "idk idk",
+      "image": "https://dn711304.ca.archive.org/0/items/mbid-1fdaeebd-4f61-47c5-8b1c-437f4cd37d6f/mbid-1fdaeebd-4f61-47c5-8b1c-437f4cd37d6f-44763771765_thumb500.jpg",
+      "notes": "Jim Legxacy"
+    },
+    {
+      "name": "The Peace",
+      "image": "https://dn711000.ca.archive.org/0/items/mbid-fa198feb-af0b-4d07-a65f-3f53fb8bff46/mbid-fa198feb-af0b-4d07-a65f-3f53fb8bff46-44651354753_thumb500.jpg",
+      "notes": "Underscores"
+    },
+    {
+      "name": "Lovefield",
+      "image": "https://dn711000.ca.archive.org/0/items/mbid-fa198feb-af0b-4d07-a65f-3f53fb8bff46/mbid-fa198feb-af0b-4d07-a65f-3f53fb8bff46-44651354753_thumb500.jpg",
+      "notes": "Underscores"
+    },
+    {
+      "name": "Excavator",
+      "image": "https://dn710602.ca.archive.org/0/items/mbid-7a35eb1b-50ce-4c03-84b3-91e6da6a4654/mbid-7a35eb1b-50ce-4c03-84b3-91e6da6a4654-44227317419_thumb1200.jpg",
+      "notes": "Don Toliver"
+    }
+  ],
+  "artists": [
+    {
+      "name": "Jim Legxacy",
+      "image": "https://dn711304.ca.archive.org/0/items/mbid-1fdaeebd-4f61-47c5-8b1c-437f4cd37d6f/mbid-1fdaeebd-4f61-47c5-8b1c-437f4cd37d6f-44763771765_thumb500.jpg",
+      "notes": ""
+    },
+    {
+      "name": "Concrete Boys",
+      "image": "https://dn711200.ca.archive.org/0/items/mbid-d00ad971-9537-4f1f-abfb-db6b81a111d8/mbid-d00ad971-9537-4f1f-abfb-db6b81a111d8-44451980887_thumb500.jpg",
+      "notes": ""
+    },
+    {
+      "name": "Underscores",
+      "image": "https://dn711000.ca.archive.org/0/items/mbid-fa198feb-af0b-4d07-a65f-3f53fb8bff46/mbid-fa198feb-af0b-4d07-a65f-3f53fb8bff46-44651354753_thumb500.jpg",
+      "notes": ""
+    },
+    {
+      "name": "Don Toliver",
+      "image": "https://dn710602.ca.archive.org/0/items/mbid-7a35eb1b-50ce-4c03-84b3-91e6da6a4654/mbid-7a35eb1b-50ce-4c03-84b3-91e6da6a4654-44227317419_thumb1200.jpg",
+      "notes": ""
+    },
+    {
+      "name": "Joji",
+      "image": "https://dn710403.ca.archive.org/0/items/mbid-7cf4927a-2369-41c6-88d1-8b1ed5887c7e/mbid-7cf4927a-2369-41c6-88d1-8b1ed5887c7e-44328911892_thumb500.jpg",
+      "notes": ""
+    }
+  ]
+},
+      {
   "weekRange": "02/23/26 - 03/01/26",
   "songs": [
     {
