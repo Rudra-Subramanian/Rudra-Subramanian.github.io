@@ -38,6 +38,10 @@ if (video_load){
         WIPVideoControl.src = '../videos/thelonius_monk_piano.mp4';
         WIPVideoControl.classList.remove("is-hidden");
     }
+    if (video_load.toLowerCase()  === "squeeze"){
+        WIPVideoControl.src = '../videos/squeeze test.mp4';
+        WIPVideoControl.classList.remove("is-hidden");
+    }
 
 }
 
@@ -79,6 +83,14 @@ function ShowVideo(event, VideoName){
         WIPVideoControl.removeAttribute("loop");
         videolabel.style.display = "block";
         videolabel.innerHTML = "The blender output for another Quadeca song on the album. This was a test for lighting and sky.";
+    }
+    if (VideoName  === "../videos/squeeze test.mp4"){
+        WIPVideoControl.setAttribute("controls", "");
+        WIPVideoControl.removeAttribute("autoplay");
+        WIPVideoControl.removeAttribute("loop");
+        videolabel.style.display = "block";
+        videolabel.innerHTML = "After effects + blender testing to squEEze !i";
+
     }
 
     
