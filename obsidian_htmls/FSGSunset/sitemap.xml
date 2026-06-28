@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>http://127.0.0.1:8000/index.html</loc>
+         <lastmod>2026-06-28</lastmod>
+    </url>
+    <url>
+         <loc>http://127.0.0.1:8000/FSG%20Sunset%20Defense.html</loc>
+         <lastmod>2026-06-28</lastmod>
+    </url>
+    <url>
+         <loc>http://127.0.0.1:8000/Defense/Heavy%20B%20main%20pressure%20weak%20A.html</loc>
+         <lastmod>2026-06-28</lastmod>
+    </url>
+    <url>
+         <loc>http://127.0.0.1:8000/Defense/fsg%20defense%20pistol.html</loc>
+         <lastmod>2026-06-28</lastmod>
+    </url>
+    <url>
+         <loc>http://127.0.0.1:8000/Defense/fsg%20sunset%20defense%20default.html</loc>
+         <lastmod>2026-06-28</lastmod>
+    </url>
+    <url>
+         <loc>http://127.0.0.1:8000/Defense/fsg%20sunset%20defense%20stop%20fast%20pressure.html</loc>
+         <lastmod>2026-06-28</lastmod>
+    </url>
+    <url>
+         <loc>http://127.0.0.1:8000/Defense/sunset%20round%204%20based%20off%20A%20main%20one%20way.html</loc>
+         <lastmod>2026-06-28</lastmod>
+    </url>
+</urlset>
